@@ -1,0 +1,25 @@
+{
+  "name": "cs2-strategy-selector",
+  "version": "1.0.0",
+  "description": "CS2 Strategy Selector with AI Analysis",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "cs2",
+    "counter-strike",
+    "strategy",
+    "gaming",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

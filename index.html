@@ -271,6 +271,346 @@
                 font-size: 1.1em;
             }
         }
+
+        /* API Key and Analysis Styles */
+        .api-section {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .api-key-group {
+            margin-bottom: 20px;
+        }
+
+        .api-key-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #34495e;
+            font-size: 1.1em;
+        }
+
+        .api-key-input {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            font-size: 1em;
+            background: white;
+            color: #2c3e50;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        .api-key-input:hover {
+            border-color: #f39c12;
+            box-shadow: 0 5px 15px rgba(243, 156, 18, 0.2);
+        }
+
+        .api-key-input:focus {
+            border-color: #f39c12;
+            box-shadow: 0 0 0 3px rgba(243, 156, 18, 0.1);
+        }
+
+        .analyze-btn {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 1.2em;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 20px 0;
+            box-shadow: 0 10px 20px rgba(243, 156, 18, 0.3);
+            width: 100%;
+        }
+
+        .analyze-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 25px rgba(243, 156, 18, 0.4);
+        }
+
+        .analyze-btn:active {
+            transform: translateY(0);
+        }
+
+        .analyze-btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+
+        .ai-analysis {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            border-radius: 15px;
+            border-left: 5px solid #f39c12;
+            text-align: left;
+            display: none;
+        }
+
+        .ai-analysis.show {
+            display: block;
+            animation: fadeInUp 0.5s ease;
+        }
+
+        .ai-analysis h3 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .ai-analysis .analysis-content {
+            color: #2c3e50;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .ai-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #f39c12;
+            margin-right: 5px;
+        }
+
+        .key-points {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+            border-radius: 15px;
+            border-left: 5px solid #28a745;
+            text-align: left;
+            display: none;
+        }
+
+        .key-points.show {
+            display: block;
+            animation: fadeInUp 0.5s ease;
+        }
+
+        .key-points h3 {
+            color: #2c3e50;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .key-points .key-points-content {
+            color: #2c3e50;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .key-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #28a745;
+            margin-right: 5px;
+        }
+
+        .api-help {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        /* Collapsible Optional Section */
+        .optional-section {
+            margin-top: 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .optional-section:hover {
+            border-color: #f39c12;
+            box-shadow: 0 5px 15px rgba(243, 156, 18, 0.1);
+        }
+
+        .optional-toggle {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border: none;
+            padding: 15px 20px;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+        }
+
+        .optional-toggle:hover {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+            color: white;
+        }
+
+        .optional-toggle .arrow {
+            font-size: 1.2em;
+            transition: transform 0.3s ease;
+        }
+
+        .optional-toggle.active .arrow {
+            transform: rotate(180deg);
+        }
+
+        .optional-content {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .optional-content.show {
+            max-height: 200px;
+            padding: 20px;
+        }
+
+        .optional-content .api-key-group {
+            margin-bottom: 15px;
+        }
+
+        .optional-content .analyze-btn {
+            margin: 15px 0 0 0;
+        }
+
+        /* Button Group Styles */
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .generate-analyze-btn {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 1.2em;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(40, 167, 69, 0.3);
+            flex: 1;
+        }
+
+        .generate-analyze-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 25px rgba(40, 167, 69, 0.4);
+        }
+
+        .generate-analyze-btn:active {
+            transform: translateY(0);
+        }
+
+        .generate-analyze-btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+
+        .generate-btn {
+            flex: 1;
+        }
+
+        @media (max-width: 480px) {
+            .button-group {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .generate-analyze-btn {
+                padding: 15px 30px;
+                font-size: 1.1em;
+            }
+        }
+
+        /* Footer Styles */
+        .footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e9ecef;
+            text-align: center;
+            color: #6c757d;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 12px 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+        }
+
+        .github-link:hover {
+            color: #fff;
+            background: linear-gradient(135deg, #24292e 0%, #1a1e22 100%);
+            border-color: #24292e;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(36, 41, 46, 0.2);
+        }
+
+        .github-icon {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .trust-text {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            max-width: 500px;
+            line-height: 1.5;
+        }
+
+        .trust-text strong {
+            color: #2c3e50;
+        }
+
+        @media (max-width: 480px) {
+            .footer-content {
+                gap: 10px;
+            }
+            
+            .github-link {
+                padding: 10px 15px;
+                font-size: 0.9em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -312,7 +652,32 @@
             </select>
         </div>
 
-        <button id="generate-btn" class="generate-btn">Generate Strategy</button>
+        <!-- Optional AI Analysis Section -->
+        <div class="optional-section">
+            <button id="optional-toggle" class="optional-toggle">
+                <span>🤖 Optional: AI Strategy Analysis</span>
+                <span class="arrow">▼</span>
+            </button>
+            <div id="optional-content" class="optional-content">
+                <div class="api-key-group">
+                    <label for="api-key-input">API Key (OpenAI, Anthropic, or OpenRouter):</label>
+                    <input type="password" id="api-key-input" class="api-key-input" 
+                           placeholder="Enter your OpenAI (sk-...), Anthropic (sk-ant-...), or OpenRouter (sk-or-...) API key">
+                    <div class="api-help">
+                        Your API key is stored locally and used only for analysis.<br>
+                        • OpenAI keys: Get yours at <strong>platform.openai.com</strong><br>
+                        • Anthropic keys: Get yours at <strong>console.anthropic.com</strong><br>
+                        • OpenRouter keys: Get yours at <strong>openrouter.ai</strong>
+                    </div>
+                </div>
+                <button id="analyze-btn" class="analyze-btn" disabled>Analyze Strategy with AI</button>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button id="generate-btn" class="generate-btn">Generate Strategy</button>
+            <button id="generate-analyze-btn" class="generate-analyze-btn" disabled>Generate Strategy + AI Analysis</button>
+        </div>
 
         <div id="strategy-display" class="strategy-display">
             <div class="strategy-header">
@@ -322,6 +687,38 @@
             </div>
             <div id="strategy-content" class="strategy-content"></div>
         </div>
+
+        <div id="ai-analysis" class="ai-analysis">
+            <h3>
+                <span class="ai-icon"></span>
+                <span>AI Strategy Analysis</span>
+            </h3>
+            <div id="analysis-content" class="analysis-content"></div>
+        </div>
+
+        <div id="key-points" class="key-points">
+            <h3>
+                <span class="key-icon"></span>
+                <span id="key-points-title">Key Points</span>
+            </h3>
+            <div id="key-points-content" class="key-points-content"></div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <a href="https://github.com/radzki/cs2igl" target="_blank" class="github-link">
+                    <svg class="github-icon" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    View Source Code on GitHub
+                </a>
+                <div class="trust-text">
+                    <strong style="margin-bottom: 10px;">🔒 Open Source & Transparent</strong><br>
+                    This application is fully open-source. You can inspect the code to verify that your API keys are only used for direct calls to OpenAI/Anthropic and stored locally in your browser. No data is sent to our servers.
+                </div>
+            </div>
+        </footer>
     </div>
 
     <script src="index.js?v=1.1"></script>
