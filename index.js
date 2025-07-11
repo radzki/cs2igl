@@ -431,7 +431,8 @@ Please think about the following points:
 If the strategy is not good, say so, and suggest a better one.
 Limit your analysis to at most 20 words per point.
 Dont return text such as "Certainly! ..." Or "Sure, here it is". Just return the analysis.
-Make sure that the strategy is not TOO illogical or unrealistic, nor IMPOSSIBLE, such as impossible smoke angles or things like that.`;
+Make sure that the strategy is not TOO illogical or unrealistic, nor IMPOSSIBLE, such as impossible smoke angles or things like that.
+Use Markdown formatting for the analysis.`;
     }
 
     async callAnthropicAPI(apiKey, prompt) {
@@ -445,8 +446,6 @@ Make sure that the strategy is not TOO illogical or unrealistic, nor IMPOSSIBLE,
                 }
             ]
         };
-
-        console.log('Anthropic API Request:', JSON.stringify(requestBody, null, 2));
 
         const response = await fetch('https://api.anthropic.com/v1/messages', {
             method: 'POST',
