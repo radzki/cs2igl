@@ -78,7 +78,7 @@
         "strategy": "**Anti-Execute**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player B (SMG). Rifles long, SMGs retake."
       },
       {
-        "strategy": "**Palace Rifle**: 2 players A (SMGs), 3 players mid (2 rifles palace), 1 player B (save). Palace rifles control."
+        "strategy": "**Palace Rifle**: 2 players A (SMGs), 2 players mid (2 rifles palace), 1 player B (save). Palace rifles control."
       },
       {
         "strategy": "**Balanced**: 2 players A (1 rifle, 1 SMG), 2 players mid (1 rifle, 1 SMG), 1 player B (rifle)."
@@ -141,19 +141,19 @@
         "strategy": "**Mid Control**: 3 players mid (1 with smoke), 2 players A ramp. Mid players smoke connector, take mid control."
       },
       {
-        "strategy": "**A Split**: 2 players A ramp, 3 players mid to connector. Ramp players smoke stairs, execute split timing."
+        "strategy": "**A Split**: 2 players B apps, 3 players mid. Mid players smoke connector and execute A through connector while apps players rotate to support or create late B threat."
       },
       {
-        "strategy": "**Palace Control**: 3 players palace with utility, 2 players A ramp. Palace players smoke connector/jungle."
+        "strategy": "**Palace Control**: 3 players palace with utility, 2 players A ramp. Ramp players smoke connector/jungle."
       },
       {
         "strategy": "**B Default**: 2 players B apps, 2 players mid, 1 player A ramp. Play for picks and information."
       },
       {
-        "strategy": "**Mid to B**: All 5 players go mid, smoke connector and jungle. Flash over smokes, execute B site."
+        "strategy": "**Mid to A**: All 5 players go mid, smoke connector + window. Flash over smokes, execute A site through connector."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise A ramp with utility, 2 players position palace. Execute B after rotations."
+        "strategy": "**A Fake to B**: 2 players make noise A ramp with utility, 3 players position B apps. Execute B after CT rotations."
       },
       {
         "strategy": "**Underpass Play**: 2 players A ramp, 2 players mid, 1 player underpass. Underpass flanks on contact."
@@ -231,19 +231,19 @@
         "strategy": "**A Execute**: Smoke stairs + connector, flash over smokes. 3 players A ramp, 2 players connector."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid with full utility, 2 players A ramp. Mid players smoke connector + window."
+        "strategy": "**Mid to A Control**: 3 players mid with full utility, 2 players A ramp. Mid players smoke connector, execute A through connector + window while ramp players support."
       },
       {
         "strategy": "**B Split**: 2 players B apps, 3 players mid to connector. Smoke connector + jungle, flash over."
       },
       {
-        "strategy": "**Palace Take**: 4 players mid, 1 player A ramp. Mid players smoke connector + window, take palace."
+        "strategy": "**Palace Take**: 4 players mid, 1 player A ramp. Mid players smoke connector + window, clear palace and execute A site."
       },
       {
         "strategy": "**Default Setup**: 2 A ramp, 2 mid, 1 B apps. AWPer mid, riflers A ramp. Play for picks."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise A ramp with utility, 2 players position mid. Execute B."
+        "strategy": "**A Fake to B**: 2 players make noise A ramp with utility, 3 players position B apps. Execute B after rotations."
       },
       {
         "strategy": "**Window Control**: 3 players mid, 2 players A ramp. Mid players smoke window, take control."
@@ -255,7 +255,7 @@
         "strategy": "**Anti-Stack A**: Heavy utility on A ramp, 4 players execute A site. 1 player mid watches rotations."
       },
       {
-        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through connector."
+        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through apartments."
       }
     ]
   }
