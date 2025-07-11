@@ -1,0 +1,138 @@
+[
+  {
+    "PISTOL": [
+      {
+        "strategy": "**A1 Rush**: All 5 players buy armor, rush A1 main with coordinated pop-flashes. Clear quad/default quickly, focus on site control with trades."
+      },
+      {
+        "strategy": "**B Rush Upper**: 4 players rush B upper with armor and flashes, 1 player A1 for late rotate. B players coordinate pop-flashes through ramp."
+      },
+      {
+        "strategy": "**Ivy Control**: 3 players ivy with utility, 2 players A1. Ivy players smoke connector, take ivy control with flashes. A players create pressure."
+      },
+      {
+        "strategy": "**A Split**: 2 players A1, 3 players ivy to connector. A1 players smoke quad, ivy players coordinate timing through connector. Execute together."
+      },
+      {
+        "strategy": "**Lower Control**: 3 players lower with utility, 2 players A1. Lower players smoke tunnels, take lower control. Play for picks and information."
+      },
+      {
+        "strategy": "**B Default**: 2 players B upper, 2 players ivy, 1 player A1. Play for picks and information. Ivy players smoke connector if CTs push."
+      },
+      {
+        "strategy": "**Connector Rush**: 4 players ivy to connector with pop-flashes, 1 player B upper. Connector players coordinate utility, rush A site."
+      },
+      {
+        "strategy": "**A1 Fake to B**: 3 players make noise A1 with utility, 2 players position ivy. Once rotations happen, all execute B through upper."
+      },
+      {
+        "strategy": "**Upper Control**: 3 players B upper focusing on ramp area, 2 players A1. Upper players coordinate pop-flashes, take B control."
+      },
+      {
+        "strategy": "**Anti-Stack**: 2 players A1, 2 players B upper, 1 player ivy. Create pressure from multiple angles. Ivy player calls rotations."
+      }
+    ]
+  },
+  {
+    "ECO": [
+      {
+        "strategy": "**Five-Seven A1 Rush**: Everyone buys Five-Seven + armor. Rush A1 together with pop-flashes. Focus on overwhelming quad player and trading kills."
+      },
+      {
+        "strategy": "**Stack B Upper**: All 5 players stack B upper area. Buy upgraded pistols + armor. Play close angles around ramp, use pop-flashes."
+      },
+      {
+        "strategy": "**Ivy Lurk**: 1 player lurks ivy with upgraded pistol, 4 players force buy A1. Ivy player waits for rotations, goes for connector picks."
+      },
+      {
+        "strategy": "**Deagle Ivy**: 2 players buy Deagle + armor ivy, 3 players support. Deagles take long angles connector/A site. Support players trade."
+      },
+      {
+        "strategy": "**Lower Control**: 4 players buy armor + upgraded pistols lower, 1 player saves. Lower players use pop-flashes, fight for control."
+      },
+      {
+        "strategy": "**Anti-Force A1**: 3 players buy armor + Five-Seven A1, 2 players save. Force players smoke quad, play for picks, then save."
+      },
+      {
+        "strategy": "**Upper Contact**: 2 players buy armor + upgraded pistols B upper, 3 players save. Upper players go for aggressive ramp contact."
+      },
+      {
+        "strategy": "**Connector Contact**: 3 players buy armor + upgraded pistols ivy, 2 players save. Ivy players fight for connector control."
+      },
+      {
+        "strategy": "**Split Save**: 2 players force A1, 2 players force B upper, 1 player saves ivy. Both sides play for picks, saver rotates."
+      },
+      {
+        "strategy": "**Full Save**: All players save completely. 2 A1, 2 B upper, 1 ivy. Play for exit frags and positioning for next round."
+      }
+    ]
+  },
+  {
+    "HALF_BUY": [
+      {
+        "strategy": "**A1 Control**: 3 players buy rifles, 2 players SMGs. 2 rifles A1, 1 rifle ivy, SMGs support. A1 rifles smoke quad, take control."
+      },
+      {
+        "strategy": "**Ivy Presence**: 2 rifles ivy, 2 SMGs A1, 1 rifle B upper. Ivy rifles smoke connector, take control. Create multi-angle pressure."
+      },
+      {
+        "strategy": "**B Upper Take**: 2 rifles B upper, 2 SMGs ivy, 1 rifle A1. Upper rifles clear ramp, take B control. Ivy SMGs support."
+      },
+      {
+        "strategy": "**Lower Control**: 3 players lower (2 rifles, 1 SMG), 2 SMGs A1. Lower players smoke tunnels, take control. Decide upper execute."
+      },
+      {
+        "strategy": "**Pick Heavy**: Spread rifles for picks. 1 rifle A1, 1 rifle ivy, 1 rifle B upper, 2 SMGs floating. Play for economy upgrade."
+      },
+      {
+        "strategy": "**A1 Focus**: 4 players A1 (2 rifles, 2 SMGs), 1 rifle ivy. A1 players smoke quad, take site control. Ivy rifle watches rotations."
+      },
+      {
+        "strategy": "**Connector Split**: 2 rifles ivy, 2 SMGs A1, 1 rifle B upper. Execute A split through connector and A1. Ivy rifles lead."
+      },
+      {
+        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Rifles hold ivy and A1, SMGs play close. Use utility to isolate."
+      },
+      {
+        "strategy": "**Ramp Control**: 2 rifles B upper, 2 SMGs ivy, 1 rifle A1. Upper rifles take ramp control, coordinate with ivy SMGs."
+      },
+      {
+        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles take key angles, SMGs use smokes/flashes for team coordination."
+      }
+    ]
+  },
+  {
+    "FULL_BUY": [
+      {
+        "strategy": "**A1 Execute**: Smoke quad + connector, flash over smokes. 3 players A1, 2 players connector. Execute A site with perfect utility timing."
+      },
+      {
+        "strategy": "**Ivy Control**: 3 players ivy with full utility, 2 players A1. Ivy players smoke connector + A site, take control. AWPer ivy for picks."
+      },
+      {
+        "strategy": "**B Upper Execute**: 4 players B upper with full utility, 1 player ivy lurk. Upper players smoke ramp + site, execute B. Ivy watches rotations."
+      },
+      {
+        "strategy": "**Lower Split**: 2 players lower, 3 players ivy to A. Smoke tunnels + connector, execute A split. Lower players come up through lower tunnels."
+      },
+      {
+        "strategy": "**Default Setup**: 2 A1, 2 ivy, 1 B upper. AWPer ivy or A1, riflers support. Play for picks with utility. Execute based on information."
+      },
+      {
+        "strategy": "**A1 Fake to B**: 3 players make noise A1 with utility, 2 players position B upper. Once rotations happen, all 5 execute B."
+      },
+      {
+        "strategy": "**Connector Control**: 4 players ivy with full utility, 1 player A1 lurk. Ivy players smoke connector + quad, take complete control."
+      },
+      {
+        "strategy": "**Popdog Execute**: 3 players A1, 2 players popdog from lower. Smoke quad + popdog, execute A site from two angles with coordination."
+      },
+      {
+        "strategy": "**Anti-Stack A**: Heavy utility on A1 (multiple smokes + flashes), 4 players execute A site. 1 player ivy watches for rotations."
+      },
+      {
+        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through upper. Use utility for late round timing advantage."
+      }
+    ]
+  }
+]

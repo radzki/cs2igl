@@ -157,6 +157,46 @@
             color: #2c3e50;
         }
 
+        .strategy-section {
+            margin-bottom: 20px;
+        }
+
+        .strategy-section h3 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .strategy-text {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #495057;
+        }
+
+        .key-points-section {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .key-points-section h3 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #28a745;
+        }
+
+        .key-points-text {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #6c757d;
+        }
+
         .map-icon {
             display: inline-block;
             width: 20px;
@@ -217,17 +257,21 @@
         <p class="subtitle">Select your map and round status to get a random strategy</p>
         
         <div class="selector-group">
-            <label for="map-selector">Choose Map:</label>
+            <label for="map-selector">Choose current rotation map:</label>
             <select id="map-selector" class="selector">
                 <option value="">Select a map...</option>
                 <option value="de_mirage">Mirage</option>
                 <option value="de_nuke">Nuke</option>
                 <option value="de_ancient">Ancient</option>
+                <option value="de_inferno">Inferno</option>
+                <option value="de_dust2">Dust2</option>
+                <option value="de_anubis">Anubis</option>
+                <option value="de_train">Train</option>
             </select>
         </div>
 
         <div class="selector-group">
-            <label for="status-selector">Choose Round Status:</label>
+            <label for="status-selector">Choose round situation:</label>
             <select id="status-selector" class="selector">
                 <option value="">Select round status...</option>
                 <option value="PISTOL">Pistol Round</option>

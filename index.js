@@ -2,7 +2,9 @@
 class StrategySelector {
     constructor() {
         this.strategies = {};
+        this.mapDescriptions = {};
         this.initializeEventListeners();
+        this.loadMapDescriptions();
     }
 
     initializeEventListeners() {
@@ -34,6 +36,22 @@ class StrategySelector {
             generateBtn.disabled = true;
             generateBtn.style.opacity = '0.6';
             generateBtn.style.cursor = 'not-allowed';
+        }
+    }
+
+    async loadMapDescriptions() {
+        try {
+            const response = await fetch('strategies/maps_descriptions.json');
+            
+            if (!response.ok) {
+                throw new Error('Failed to load map descriptions');
+            }
+
+            const data = await response.json();
+            this.mapDescriptions = data;
+        } catch (error) {
+            console.error('Error loading map descriptions:', error);
+            // Continue without descriptions if they fail to load
         }
     }
 
@@ -122,7 +140,22 @@ class StrategySelector {
         // Update content
         strategyMap.textContent = displayMapName;
         strategyStatus.textContent = displayStatus;
-        strategyContent.innerHTML = this.formatStrategy(strategy);
+        
+        // Build the content with strategy and key points
+        let content = `<div class="strategy-section">
+            <h3>Strategy:</h3>
+            <div class="strategy-text">${this.formatStrategy(strategy)}</div>
+        </div>`;
+
+        // Add key points if available
+        if (this.mapDescriptions[mapName]) {
+            content += `<div class="key-points-section">
+                <h3>Key Points for ${displayMapName}:</h3>
+                <div class="key-points-text">${this.formatStrategy(this.mapDescriptions[mapName])}</div>
+            </div>`;
+        }
+
+        strategyContent.innerHTML = content;
 
         // Show the strategy display with animation
         strategyDisplay.classList.remove('show');
