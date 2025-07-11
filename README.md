@@ -1,6 +1,6 @@
 # CS2 Strategy Selector 🎮
 
-A web application that generates random Counter-Strike 2 strategies and provides AI-powered tactical analysis using the Anthropic API.
+A web application that generates random Counter-Strike 2 strategies and provides AI-powered tactical analysis using LLMs.
 
 ![CS2 Strategy Selector](https://img.shields.io/badge/CS2-Strategy%20Selector-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-green)
