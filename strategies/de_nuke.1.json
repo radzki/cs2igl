@@ -1,0 +1,138 @@
+[
+  {
+    "PISTOL": [
+      {
+        "strategy": "**A Rush Through Ramp**: All 5 players buy armor, rush A through ramp with coordinated pop-flashes. First two players clear quad, last three secure site. Fast execution is key."
+      },
+      {
+        "strategy": "**B Rush Lower**: 4 players rush B through lower tunnels with armor. 1 player goes ramp for late rotate. Lower players use pop-flashes, focus on close-range trades."
+      },
+      {
+        "strategy": "**Outside Control**: 3 players outside with utility, 2 players ramp. Outside players smoke toxic waste, take yard control. Ramp players make noise but don't commit."
+      },
+      {
+        "strategy": "**Split A**: 2 players ramp, 3 players outside to upper via hut. Ramp players smoke quad, outside players coordinate timing through hut. Execute together."
+      },
+      {
+        "strategy": "**Lower Default**: 2 players ramp, 2 players lower, 1 player outside. Play for picks and information. Lower players check secret, ramp players smoke quad if needed."
+      },
+      {
+        "strategy": "**Hut Focus**: 4 players outside focusing on hut area, 1 player ramp. Outside players smoke toxic, take hut control, then execute A upper together."
+      },
+      {
+        "strategy": "**B Fake to A**: 2 players make noise lower tunnels, 3 players position outside. Once rotations happen, all players execute A through hut."
+      },
+      {
+        "strategy": "**Ramp Heavy**: 4 players ramp with pop-flashes, 1 player outside for info. Ramp players smoke quad, coordinate peek with flashes. Outside rotates based on reads."
+      },
+      {
+        "strategy": "**Anti-Stack**: 3 players outside, 2 players ramp. Outside players smoke multiple angles, take yard control. Ramp players support with utility."
+      },
+      {
+        "strategy": "**Secret Play**: 2 players ramp, 2 players lower (1 goes secret), 1 player outside. Secret player waits for contact, then flanks. Patience is crucial."
+      }
+    ]
+  },
+  {
+    "ECO": [
+      {
+        "strategy": "**Five-Seven B Rush**: Everyone buys Five-Seven + armor. Rush B through lower tunnels with pop-flashes. Focus on close-range trades and weapon pickups."
+      },
+      {
+        "strategy": "**Stack A Upper**: All 5 players stack A site upper level. Buy upgraded pistols + armor. Play close angles around quad/default, use pop-flashes."
+      },
+      {
+        "strategy": "**Outside Lurk**: 1 player lurks outside with upgraded pistol, 4 players force buy lower. Outside player waits for rotations, goes for late picks."
+      },
+      {
+        "strategy": "**Deagle Setup**: 2 players buy Deagle + armor, 3 players support with utility. Deagles take long angles outside and ramp. Support players trade frag."
+      },
+      {
+        "strategy": "**Lower Control**: 4 players buy armor + upgraded pistols, take lower control. 1 player saves in spawn. Lower players use pop-flashes, fight for map control."
+      },
+      {
+        "strategy": "**Hut Rush**: 3 players buy armor + Five-Seven, rush hut from outside. 2 players save completely. Hut players use pop-flashes, play for close duels."
+      },
+      {
+        "strategy": "**Ramp Contact**: 2 players buy armor + upgraded pistols ramp, 3 players save lower. Ramp players smoke quad, go for aggressive contact with flashes."
+      },
+      {
+        "strategy": "**Split Save**: 2 players force buy outside, 2 players force buy ramp, 1 player saves lower. Both sides play for picks, saver rotates to help."
+      },
+      {
+        "strategy": "**Anti-Force**: 3 players buy armor + Five-Seven outside, 2 players save. Force players smoke toxic, play for picks, then save weapons."
+      },
+      {
+        "strategy": "**Full Save**: All players save completely. 2 players outside, 2 players ramp, 1 player lower. Play for exit frags and positioning for next round."
+      }
+    ]
+  },
+  {
+    "HALF_BUY": [
+      {
+        "strategy": "**A Control**: 3 players buy rifles, 2 players SMGs. 2 rifles ramp, 1 rifle outside, SMGs support. Ramp rifles smoke quad, take site control."
+      },
+      {
+        "strategy": "**Outside Presence**: 2 rifles outside, 2 SMGs ramp, 1 rifle lower. Outside rifles smoke toxic, take yard control. Create multi-angle pressure."
+      },
+      {
+        "strategy": "**B Lower Take**: 2 rifles lower, 2 SMGs ramp, 1 rifle outside. Lower rifles clear tunnels, take B control. Ramp SMGs support or rotate."
+      },
+      {
+        "strategy": "**Hut Control**: 3 players outside (2 rifles, 1 SMG), 2 SMGs ramp. Outside players smoke toxic, take hut control. Decide upper execute timing."
+      },
+      {
+        "strategy": "**Pick Heavy**: Spread rifles across map for picks. 1 rifle outside, 1 rifle ramp, 1 rifle lower, 2 SMGs floating. Play for economy upgrade."
+      },
+      {
+        "strategy": "**Ramp Focus**: 4 players ramp (2 rifles, 2 SMGs), 1 rifle outside. Ramp players smoke quad, take A control. Outside player watches for rotations."
+      },
+      {
+        "strategy": "**Lower Split**: 2 rifles lower, 2 SMGs outside to upper, 1 rifle ramp. Execute B split with timing. Lower rifles clear tunnels first."
+      },
+      {
+        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Rifles hold outside and ramp, SMGs play sites. Use utility to isolate duels."
+      },
+      {
+        "strategy": "**Secret Focus**: 2 rifles ramp, 2 SMGs lower (1 secret), 1 rifle outside. Secret SMG waits for contact, then flanks. Rifles support."
+      },
+      {
+        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles take key angles, SMGs use smokes/flashes to support. Focus on team plays."
+      }
+    ]
+  },
+  {
+    "FULL_BUY": [
+      {
+        "strategy": "**A Split Execute**: Smoke quad + default, 2 players ramp, 3 players outside to upper. Flash over smokes, execute split with perfect timing coordination."
+      },
+      {
+        "strategy": "**Outside Control**: 3 players outside with full utility, 2 players ramp. Outside players smoke toxic + squeaky, take yard control, then execute upper."
+      },
+      {
+        "strategy": "**B Lower Execute**: 3 players lower with smokes/flashes, 2 players ramp. Lower players smoke tunnels, execute B site. Ramp players rotate after contact."
+      },
+      {
+        "strategy": "**Ramp Heavy**: 4 players ramp with full utility, 1 player outside lurk. Ramp players smoke quad + default, execute A site. Outside lurker watches rotations."
+      },
+      {
+        "strategy": "**Hut Take**: 4 players outside, 1 player ramp. Outside players smoke toxic + squeaky, take hut control with flashes. Execute A upper together."
+      },
+      {
+        "strategy": "**Default Setup**: 2 outside, 2 ramp, 1 lower. AWPer outside, riflers ramp. Play for picks with utility support. Execute based on information."
+      },
+      {
+        "strategy": "**A Fake to B**: 3 players make noise ramp with utility, 2 players position lower. Once rotations happen, all 5 execute B through lower."
+      },
+      {
+        "strategy": "**Secret Execute**: 2 players ramp, 2 players lower, 1 player secret. Secret player waits for contact, then flanks B site. Coordination is key."
+      },
+      {
+        "strategy": "**Anti-Stack A**: Heavy utility on ramp (smokes + flashes), 4 players execute A site. 1 player lower watches for rotations. Overwhelming A site."
+      },
+      {
+        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through lower. Use smokes + flashes for late round timing advantage."
+      }
+    ]
+  }
+]

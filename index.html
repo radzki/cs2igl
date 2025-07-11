@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 Strategy Selector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+            font-weight: 300;
+        }
+
+        .selector-group {
+            margin-bottom: 30px;
+        }
+
+        .selector-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #34495e;
+            font-size: 1.1em;
+        }
+
+        .selector {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            font-size: 1.1em;
+            background: white;
+            color: #2c3e50;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .selector:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .selector:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .generate-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 1.2em;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 20px 0;
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .generate-btn:active {
+            transform: translateY(0);
+        }
+
+        .strategy-display {
+            margin-top: 30px;
+            padding: 25px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+            text-align: left;
+            min-height: 100px;
+            display: none;
+        }
+
+        .strategy-display.show {
+            display: block;
+            animation: fadeInUp 0.5s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .strategy-header {
+            color: #2c3e50;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .strategy-content {
+            color: #495057;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .strategy-content strong {
+            color: #2c3e50;
+        }
+
+        .map-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #667eea;
+            margin-right: 5px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .loading {
+            color: #667eea;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        .error {
+            color: #e74c3c;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .selector {
+                padding: 12px 15px;
+                font-size: 1em;
+            }
+            
+            .generate-btn {
+                padding: 15px 30px;
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CS2 Strategy Selector</h1>
+        <p class="subtitle">Select your map and round status to get a random strategy</p>
+        
+        <div class="selector-group">
+            <label for="map-selector">Choose Map:</label>
+            <select id="map-selector" class="selector">
+                <option value="">Select a map...</option>
+                <option value="de_mirage">Mirage</option>
+                <option value="de_nuke">Nuke</option>
+                <option value="de_ancient">Ancient</option>
+            </select>
+        </div>
+
+        <div class="selector-group">
+            <label for="status-selector">Choose Round Status:</label>
+            <select id="status-selector" class="selector">
+                <option value="">Select round status...</option>
+                <option value="PISTOL">Pistol Round</option>
+                <option value="ECO">Eco Round</option>
+                <option value="HALF_BUY">Half Buy</option>
+                <option value="FULL_BUY">Full Buy</option>
+            </select>
+        </div>
+
+        <button id="generate-btn" class="generate-btn">Generate Strategy</button>
+
+        <div id="strategy-display" class="strategy-display">
+            <div class="strategy-header">
+                <span class="map-icon"></span>
+                <span id="strategy-map"></span>
+                <span id="strategy-status" class="status-badge"></span>
+            </div>
+            <div id="strategy-content" class="strategy-content"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
