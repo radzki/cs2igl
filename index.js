@@ -164,10 +164,6 @@ class StrategySelector {
         const mapSelector = document.getElementById('map-selector');
         const sideSelector = document.getElementById('side-selector');
         const statusSelector = document.getElementById('status-selector');
-        const strategyDisplay = document.getElementById('strategy-display');
-        const strategyContent = document.getElementById('strategy-content');
-        const strategyMap = document.getElementById('strategy-map');
-        const strategyStatus = document.getElementById('strategy-status');
 
         const selectedMap = mapSelector.value;
         const selectedSide = sideSelector.value;
@@ -418,7 +414,7 @@ class StrategySelector {
         const side = this.currentContext.side;
         const status = this.currentContext.status.replace('_', ' ');
 
-        return `As a professional CS2 analyst, analyze this Counter-Strike 2 strategy:
+        return `As a professional CS2 In Game Leader (IGL), analyze this Counter-Strike 2 strategy:
 
 Map: ${mapName}
 Side: ${side}
@@ -432,13 +428,10 @@ Please think about the following points:
 4. **Counter-Strategies** - How might opponents respond?
 5. **Alternative Approaches** - What other strategies could work in this situation?
 
-Keep your analysis practical and tactical, focusing on in-game execution and team coordination.
-
-Limit your analysis to at most 2 paragraphs.
-
+If the strategy is not good, say so, and suggest a better one.
+Limit your analysis to at most 20 words per point.
 Dont return text such as "Certainly! ..." Or "Sure, here it is". Just return the analysis.
-
-ALSO: Make sure that the strategy is not TOO illogical or unrealistic, nor IMPOSSIBLE, such as impossible smoke angles or things like that.`;
+Make sure that the strategy is not TOO illogical or unrealistic, nor IMPOSSIBLE, such as impossible smoke angles or things like that.`;
     }
 
     async callAnthropicAPI(apiKey, prompt) {
