@@ -1,138 +1,262 @@
-[
-  {
+{
+  "CT": {
     "PISTOL": [
       {
-        "strategy": "**A Site Rush**: All 5 players buy armor. Rush A main together with coordinated pop-flashes. First two players trade frag, last three clean up site. Simple but effective with good timing."
+        "strategy": "**2-1-2 Setup**: 2 players A main (1 donut, 1 default), 1 player mid connector, 2 players B main. Mid player calls rotations, A players trade frag donut control."
       },
       {
-        "strategy": "**Mid Control**: 3 players go mid (1 with smoke), 2 players go A main. Mid players smoke connector, take middle control. A players create noise but don't commit unless mid gets pick."
+        "strategy": "**Aggressive Mid**: 3 players mid (temple control), 1 player A, 1 player B. Mid players push for picks, A/B players play retake positions if mid gets control."
       },
       {
-        "strategy": "**B Split**: 2 players go B main, 3 players go through mid to B. Mid players smoke connector, wait for B main contact, then execute split timing. One player buys HE grenade."
+        "strategy": "**Stack A**: 3 players A site (donut, default, quad), 2 players mid/B. Play for A retakes, mid players rotate fast on B contact."
       },
       {
-        "strategy": "**A Default**: 2 A main, 2 mid, 1 B. Play for picks and information. Mid players smoke connector if they get aggressive. Rotate based on what we see - patience is key."
+        "strategy": "**Connector Hold**: 2 players A, 2 players connector/mid, 1 player B. Connector players hold aggressively, deny mid control with utility."
       },
       {
-        "strategy": "**Donut Rush**: 4 players A main, 1 player B (noise only). A players coordinate pop-flashes and rush donut/site together. B player makes noise then rotates through mid."
+        "strategy": "**Anti-Rush A**: 3 players A (close angles), 1 player mid, 1 player B. A players play crossfires, focus on trading frags against rushes."
       },
       {
-        "strategy": "**Mid to B**: All 5 players go mid. Smoke connector, flash over smoke, rush through to B site. Fast execution - no hesitation once smokes are down."
+        "strategy": "**Rotational**: 1 player A, 2 players mid, 2 players B. Play for information, fast rotates based on contact. Mobile defense."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise A main with utility, 2 players go B main quietly. Once A players get response, they rotate through mid to help B."
+        "strategy": "**Temple Control**: 2 players A, 3 players mid/temple. Temple players push for picks, deny T mid control with aggressive positioning."
       },
       {
-        "strategy": "**Temple Control**: 2 players A main, 3 players mid focusing on temple area. Temple players smoke connector, take temple control, then decide A or B based on rotations."
+        "strategy": "**B Stack**: 1 player A, 1 player mid, 3 players B. Force Ts to A, play for fast B to A rotates with utility support."
       },
       {
-        "strategy": "**Stack B**: 4 players B main with utility, 1 player A main for info. B players use pop-flashes and coordinate peek. A player rotates after getting information."
+        "strategy": "**Donut Focus**: 2 players A (both donut area), 2 players mid, 1 player B. Heavy donut control, mid players support A on contact."
       },
       {
-        "strategy": "**Anti-Eco**: Spread utility across team (2 smokes, 2 flashes, 1 HE). Play default positions, use utility to isolate duels. Don't overpeek - let them come to us."
+        "strategy": "**Info Play**: 2 players A, 1 player mid, 2 players B. All players play for information first, retakes second. Conservative angles."
       }
-    ]
-  },
-  {
+    ],
     "ECO": [
       {
-        "strategy": "**Five-Seven A Rush**: Everyone buys Five-Seven + armor. Rush A main together with pop-flashes. Focus on trading kills and getting weapons. First two players go for aggressive peeks."
+        "strategy": "**Stack A Close**: 4 players A site (close angles), 1 player B. Upgraded pistols, play for close-range trades. B player saves."
       },
       {
-        "strategy": "**Stack B**: All 5 players stack B site. Buy upgraded pistols + armor. Play close angles, use pop-flashes, focus on overwhelming one player at a time."
+        "strategy": "**Aggressive Mid**: 3 players mid with upgraded pistols, 2 players save. Mid players push for picks, savers play retake positions."
       },
       {
-        "strategy": "**Mid Lurk**: 1 player lurks mid with upgraded pistol, 4 players force buy A main. Mid player waits for rotation, then goes for late round picks."
+        "strategy": "**B Stack Save**: 1 player A (save), 4 players B close angles. Upgraded pistols B, focus on overwhelming one site."
       },
       {
-        "strategy": "**Deagle + Support**: 2 players buy Deagle + armor, 3 players support with flashes/smokes. Deagle players take long angles mid and A main. Support players trade frag."
+        "strategy": "**Connector Push**: 2 players A, 3 players mid (aggressive connector). Mid players buy armor+pistol, push for picks early round."
       },
       {
-        "strategy": "**Temple Rush**: 4 players buy armor + upgraded pistols, rush temple from mid. 1 player saves in spawn. Temple players use pop-flashes and focus on close-range duels."
+        "strategy": "**Anti-Force A**: 3 players A close, 2 players mid/B save. A players upgraded pistols, play crossfires against force buys."
       },
       {
-        "strategy": "**Anti-Force**: 3 players buy armor + Five-Seven, 2 players save completely. Force players go A main, play for picks, then save weapons. Savers stay in spawn."
+        "strategy": "**Full Save**: All players save completely. 2 A, 1 mid, 2 B. Play passive angles, focus on survival and information."
       },
       {
-        "strategy": "**B Main Contact**: 2 players buy armor + upgraded pistols B main, 3 players save mid. B players go for aggressive contact, mid players rotate if picks happen."
+        "strategy": "**Donut Control**: 2 players A (1 upgraded pistol donut), 2 players mid, 1 player B save. Donut player goes for picks."
       },
       {
-        "strategy": "**Connector Fight**: 3 players buy armor + upgraded pistols, fight connector from mid. 2 players save A main. Connector players use pop-flashes, play for picks."
+        "strategy": "**Temple Push**: 1 player A, 3 players mid (temple push), 1 player B. Mid players upgraded pistols, aggressive temple control."
       },
       {
-        "strategy": "**Split Save**: 2 players force buy A main, 2 players force buy B main, 1 player saves mid. Both sides play for picks, saver rotates to help successful side."
+        "strategy": "**Retake Focus**: 2 players A, 1 player mid, 2 players B. All save, play for retakes with utility. Conservative positioning."
       },
       {
-        "strategy": "**Full Save**: All players save money completely. Play for exit frags only. 2 players A main, 2 players B main, 1 player mid. Get information and positioning for next round."
+        "strategy": "**Mixed Buy**: 2 players A (1 upgraded pistol), 2 players mid (1 upgraded pistol), 1 player B save. Selective buys for picks."
       }
-    ]
-  },
-  {
+    ],
     "HALF_BUY": [
       {
-        "strategy": "**A Main Control**: 3 players buy rifles, 2 players buy SMGs. Rifles take A main control with smokes/flashes. SMGs support or rotate based on reads. Focus on map control."
+        "strategy": "**Rifle Mid**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player B (SMG). Rifles hold long angles, SMG close."
       },
       {
-        "strategy": "**Mid Presence**: 2 rifles mid, 2 SMGs A main, 1 rifle B. Mid players smoke connector, take temple control. Create pressure from multiple angles."
+        "strategy": "**A Heavy**: 3 players A (2 rifles, 1 SMG), 1 player mid (rifle), 1 player B (SMG). Strong A hold, fast rotates."
       },
       {
-        "strategy": "**B Split Execute**: 2 rifles B main, 2 SMGs mid to B, 1 rifle A (lurk). Mid players smoke connector, execute split with B main. Lurker goes for late round pick."
+        "strategy": "**Connector Control**: 2 players A (SMGs), 3 players mid (2 rifles, 1 SMG). Mid rifles hold connector, deny T control."
       },
       {
-        "strategy": "**Economy Aggression**: 3 rifles, 2 SMGs. Rifles take key angles (A main, mid, B main), SMGs play support. Focus on getting picks to upgrade economy."
+        "strategy": "**Anti-Execute**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player B (SMG). Rifles long angles, SMGs retake positions."
       },
       {
-        "strategy": "**Temple Control**: 4 players mid (2 rifles, 2 SMGs), 1 rifle A main. Mid players smoke connector, take temple. Decide A or B based on rotations."
+        "strategy": "**Temple Hold**: 2 players A (SMGs), 3 players mid (2 rifles temple), 1 player B (save). Temple rifles deny mid control."
       },
       {
-        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Rifles hold A main and mid connector, SMGs play site. Use utility to isolate duels."
+        "strategy": "**Balanced**: 2 players A (1 rifle, 1 SMG), 2 players mid (1 rifle, 1 SMG), 1 player B (rifle). Even distribution."
       },
       {
-        "strategy": "**Donut Focus**: 3 rifles A main, 2 SMGs B main. A players smoke donut, take site control. B players make noise, rotate if needed."
+        "strategy": "**B Heavy**: 2 players A (SMGs), 1 player mid (rifle), 2 players B (1 rifle, 1 SMG). Strong B hold, A retakes."
       },
       {
-        "strategy": "**Connector Deny**: 2 rifles mid, 2 SMGs A main, 1 rifle B. Mid rifles smoke connector, deny middle control. Force them to go around."
+        "strategy": "**Donut Rifle**: 2 players A (1 rifle donut), 2 players mid (1 rifle), 1 player B (SMG). Rifle holds donut angle."
       },
       {
-        "strategy": "**Pick Heavy**: Spread team across map with rifles on long angles. 1 rifle A main, 1 rifle mid, 1 rifle B, 2 SMGs floating. Play for picks."
+        "strategy": "**Aggressive Mid**: 2 players A (SMGs), 3 players mid (2 rifles push). Mid rifles take aggressive map control early."
       },
       {
-        "strategy": "**Site Focus**: 4 players A (2 rifles, 2 SMGs), 1 rifle B. A players smoke multiple angles, take site control. B player plays for information."
+        "strategy": "**Retake Setup**: 2 players A (1 rifle), 1 player mid (rifle), 2 players B (1 rifle, 1 SMG). Focus on retake utility."
+      }
+    ],
+    "FULL_BUY": [
+      {
+        "strategy": "**Standard 2-1-2**: 2 players A (rifles), 1 player mid (AWP), 2 players B (rifles). AWP connector, rifles hold sites."
+      },
+      {
+        "strategy": "**A Heavy**: 3 players A (rifles + utility), 1 player mid (rifle), 1 player B (rifle). Strong A execute defense."
+      },
+      {
+        "strategy": "**Mid Control**: 2 players A (rifles), 3 players mid (AWP + 2 rifles). Heavy mid presence, fast rotations."
+      },
+      {
+        "strategy": "**Connector Deny**: 2 players A (rifles), 2 players mid (rifles + utility), 1 player B (rifle). Smoke connector, deny control."
+      },
+      {
+        "strategy": "**Anti-Split**: 2 players A (rifles), 2 players mid (rifles), 1 player B (rifle + utility). Focus on split defense."
+      },
+      {
+        "strategy": "**AWP Donut**: 2 players A (1 AWP donut, 1 rifle), 2 players mid (rifles), 1 player B (rifle). AWP holds donut angle."
+      },
+      {
+        "strategy": "**Temple Control**: 2 players A (rifles), 3 players mid (rifles + AWP temple). Temple AWP for picks, rifles support."
+      },
+      {
+        "strategy": "**B Stack**: 1 player A (rifle), 2 players mid (rifles), 2 players B (rifles). Force A plays, rotate with utility."
+      },
+      {
+        "strategy": "**Retake Heavy**: 2 players A (rifles), 1 player mid (rifle), 2 players B (rifles + utility). Focus on retake coordination."
+      },
+      {
+        "strategy": "**Aggressive Setup**: 2 players A (rifles), 2 players mid (rifles push), 1 player B (rifle). Mid rifles take map control."
       }
     ]
   },
-  {
+  "T": {
+    "PISTOL": [
+      {
+        "strategy": "**A Site Rush**: All 5 players buy armor. Rush A main together with coordinated pop-flashes. First two players trade frag, last three clean up site."
+      },
+      {
+        "strategy": "**Mid Control**: 3 players go mid (1 with smoke), 2 players go A main. Mid players smoke connector, take middle control. A players create noise but don't commit."
+      },
+      {
+        "strategy": "**B Split**: 2 players go B main, 3 players go through mid to B. Mid players smoke connector, wait for B main contact, then execute split timing."
+      },
+      {
+        "strategy": "**A Default**: 2 A main, 2 mid, 1 B. Play for picks and information. Mid players smoke connector if they get aggressive."
+      },
+      {
+        "strategy": "**Donut Rush**: 4 players A main, 1 player B (noise only). A players coordinate pop-flashes and rush donut/site together."
+      },
+      {
+        "strategy": "**Mid to B**: All 5 players go mid. Smoke connector, flash over smoke, rush through to B site. Fast execution."
+      },
+      {
+        "strategy": "**A Fake to B**: 3 players make noise A main with utility, 2 players go B main quietly. Once A gets response, rotate through mid."
+      },
+      {
+        "strategy": "**Temple Control**: 2 players A main, 3 players mid focusing on temple area. Temple players smoke connector, take control."
+      },
+      {
+        "strategy": "**Stack B**: 4 players B main with utility, 1 player A main for info. B players use pop-flashes and coordinate peek."
+      },
+      {
+        "strategy": "**Anti-Eco**: Spread utility across team. Play default positions, use utility to isolate duels. Don't overpeek."
+      }
+    ],
+    "ECO": [
+      {
+        "strategy": "**Five-Seven A Rush**: Everyone buys Five-Seven + armor. Rush A main together with pop-flashes. Focus on trading kills and getting weapons."
+      },
+      {
+        "strategy": "**Stack B**: All 5 players stack B site. Buy upgraded pistols + armor. Play close angles, use pop-flashes."
+      },
+      {
+        "strategy": "**Mid Lurk**: 1 player lurks mid with upgraded pistol, 4 players force buy A main. Mid player waits for rotation."
+      },
+      {
+        "strategy": "**Deagle + Support**: 2 players buy Deagle + armor, 3 players support with flashes/smokes. Deagle players take long angles."
+      },
+      {
+        "strategy": "**Temple Rush**: 4 players buy armor + upgraded pistols, rush temple from mid. 1 player saves in spawn."
+      },
+      {
+        "strategy": "**Anti-Force**: 3 players buy armor + Five-Seven, 2 players save completely. Force players go A main, play for picks."
+      },
+      {
+        "strategy": "**B Main Contact**: 2 players buy armor + upgraded pistols B main, 3 players save mid. B players go for aggressive contact."
+      },
+      {
+        "strategy": "**Connector Fight**: 3 players buy armor + upgraded pistols, fight connector from mid. 2 players save A main."
+      },
+      {
+        "strategy": "**Split Save**: 2 players force buy A main, 2 players force buy B main, 1 player saves mid."
+      },
+      {
+        "strategy": "**Full Save**: All players save money completely. Play for exit frags only. Get information and positioning."
+      }
+    ],
+    "HALF_BUY": [
+      {
+        "strategy": "**A Main Control**: 3 players buy rifles, 2 players buy SMGs. Rifles take A main control with smokes/flashes."
+      },
+      {
+        "strategy": "**Mid Presence**: 2 rifles mid, 2 SMGs A main, 1 rifle B. Mid players smoke connector, take temple control."
+      },
+      {
+        "strategy": "**B Split Execute**: 2 rifles B main, 2 SMGs mid to B, 1 rifle A (lurk). Mid players smoke connector, execute split."
+      },
+      {
+        "strategy": "**Economy Aggression**: 3 rifles, 2 SMGs. Rifles take key angles, SMGs play support. Focus on getting picks."
+      },
+      {
+        "strategy": "**Temple Control**: 4 players mid (2 rifles, 2 SMGs), 1 rifle A main. Mid players smoke connector, take temple."
+      },
+      {
+        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Use utility to isolate duels."
+      },
+      {
+        "strategy": "**Donut Focus**: 3 rifles A main, 2 SMGs B main. A players smoke donut, take site control."
+      },
+      {
+        "strategy": "**Connector Deny**: 2 rifles mid, 2 SMGs A main, 1 rifle B. Mid rifles smoke connector, deny middle control."
+      },
+      {
+        "strategy": "**Pick Heavy**: Spread team across map with rifles on long angles. Play for picks."
+      },
+      {
+        "strategy": "**Site Focus**: 4 players A (2 rifles, 2 SMGs), 1 rifle B. A players smoke multiple angles, take site control."
+      }
+    ],
     "FULL_BUY": [
       {
-        "strategy": "**A Site Execute**: Smoke donut + A main, flash over smokes. 4 players execute A site with proper utility usage. 1 player lurks mid for late round rotation."
+        "strategy": "**A Site Execute**: Smoke donut + A main, flash over smokes. 4 players execute A site. 1 player lurks mid."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid with smokes/flashes, 2 players A main. Mid players smoke connector, take temple control, then decide A or B execute."
+        "strategy": "**Mid Control**: 3 players mid with smokes/flashes, 2 players A main. Mid players smoke connector, take temple control."
       },
       {
-        "strategy": "**B Split**: 2 players B main, 3 players mid to B. Smoke connector + B site, flash over smokes. Execute split with perfect timing."
+        "strategy": "**B Split**: 2 players B main, 3 players mid to B. Smoke connector + B site, flash over smokes."
       },
       {
-        "strategy": "**Default Setup**: 2 A main, 2 mid, 1 B. Smoke key angles, play for picks. AWPer mid, riflers A main. Execute based on information gathered."
+        "strategy": "**Default Setup**: 2 A main, 2 mid, 1 B. Smoke key angles, play for picks. Execute based on information."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise A main with utility, 2 players position mid. Once rotations happen, all 5 execute B through mid."
+        "strategy": "**A Fake to B**: 3 players make noise A main with utility, 2 players position mid. Execute B through mid."
       },
       {
-        "strategy": "**Temple Take**: 4 players mid, 1 player A main. Mid players smoke connector, take temple control with flashes. Execute A or B based on reads."
+        "strategy": "**Temple Take**: 4 players mid, 1 player A main. Mid players smoke connector, take temple control with flashes."
       },
       {
-        "strategy": "**Anti-Stack B**: Smoke A main + donut, 4 players execute A site. 1 player mid watches for rotations. Heavy utility usage on A site."
+        "strategy": "**Anti-Stack B**: Smoke A main + donut, 4 players execute A site. Heavy utility usage on A site."
       },
       {
-        "strategy": "**Connector Control**: 3 players mid, 2 players A main. Mid players smoke connector, fight for middle control. Strong utility usage to win mid."
+        "strategy": "**Connector Control**: 3 players mid, 2 players A main. Mid players smoke connector, fight for middle control."
       },
       {
-        "strategy": "**Late Round B**: Play default until 45 seconds, then all 5 execute B through mid. Use smokes + flashes for late round timing."
+        "strategy": "**Late Round B**: Play default until 45 seconds, then all 5 execute B through mid."
       },
       {
-        "strategy": "**AWP Setup**: AWPer mid, 2 riflers A main, 2 riflers B main. AWPer calls rotations, riflers execute based on AWP information. Utility supports AWPer."
+        "strategy": "**AWP Setup**: AWPer mid, 2 riflers A main, 2 riflers B main. AWPer calls rotations, riflers execute based on info."
       }
     ]
   }
-]
+}

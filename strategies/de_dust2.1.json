@@ -1,138 +1,262 @@
-[
-  {
+{
+  "CT": {
     "PISTOL": [
       {
-        "strategy": "**Long A Rush**: All 5 players buy armor, rush long A with coordinated pop-flashes. Clear pit/car quickly, focus on overwhelming site with trades."
+        "strategy": "**2-1-2 Setup**: 2 players A (pit/site), 1 player mid (catwalk), 2 players B (tunnels/site). Mid player calls rotations."
       },
       {
-        "strategy": "**B Tunnels Rush**: 4 players rush B tunnels with armor and flashes, 1 player long A for late rotate. Tunnels players coordinate pop-flashes through upper."
+        "strategy": "**Aggressive Mid**: 3 players mid (catwalk/xbox), 1 player A, 1 player B. Mid players push for picks through doors."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid (1 with smoke for doors), 2 players long A. Mid players smoke doors, take catwalk control. Long players create pressure."
+        "strategy": "**Stack A**: 3 players A site (pit, car, default), 2 players mid/B. Focus on A retakes, mid rotates fast."
       },
       {
-        "strategy": "**A Split**: 2 players long A, 3 players mid to catwalk. Long players smoke car, mid players coordinate timing through catwalk. Execute together."
+        "strategy": "**Catwalk Hold**: 2 players A, 2 players mid (catwalk control), 1 player B. Mid players hold aggressively."
       },
       {
-        "strategy": "**Short Rush**: 4 players mid to short with pop-flashes, 1 player tunnels. Short players smoke doors, rush A site from short angle."
+        "strategy": "**Anti-Rush A**: 3 players A (close angles), 1 player mid, 1 player B. A players crossfire long rushes."
       },
       {
-        "strategy": "**B Default**: 2 players tunnels, 2 players mid, 1 player long A. Play for picks and information. Mid players smoke doors if CTs are aggressive."
+        "strategy": "**Rotational**: 1 player A, 2 players mid, 2 players B. Mobile defense, fast rotates based on contact."
       },
       {
-        "strategy": "**Catwalk Control**: 3 players mid with utility, 2 players long A. Mid players smoke doors, take catwalk control with flashes. Play for picks."
+        "strategy": "**Tunnels Stack**: 2 players A, 1 player mid, 2 players tunnels/B. Heavy tunnels control, force long plays."
       },
       {
-        "strategy": "**Long Fake to B**: 3 players make noise long A with utility, 2 players position mid. Once rotations happen, all execute B through tunnels."
+        "strategy": "**Long Control**: 2 players A (pit focus), 2 players mid, 1 player B. Pit player AWP/rifle for picks."
       },
       {
-        "strategy": "**Upper Tunnels**: 3 players upper tunnels with utility, 2 players long A. Tunnels players use pop-flashes, focus on B site control."
+        "strategy": "**B Heavy**: 1 player A, 2 players mid, 2 players B. Force long A plays, fast rotates with utility."
       },
       {
-        "strategy": "**Anti-Stack**: 2 players long A, 2 players tunnels, 1 player mid. Create pressure from multiple angles. Mid player calls rotations."
+        "strategy": "**Info Play**: 2 players A, 1 player mid, 2 players B. Conservative angles, information gathering focus."
       }
-    ]
-  },
-  {
+    ],
     "ECO": [
       {
-        "strategy": "**Five-Seven Long Rush**: Everyone buys Five-Seven + armor. Rush long A together with pop-flashes. Focus on overwhelming pit player and trading kills."
+        "strategy": "**Stack A Close**: 4 players A site (close angles), 1 player B. Upgraded pistols, close-range trades."
       },
       {
-        "strategy": "**Stack B Tunnels**: All 5 players stack B tunnels. Buy upgraded pistols + armor. Play close angles in upper tunnels, use pop-flashes."
+        "strategy": "**Aggressive Mid**: 3 players mid with upgraded pistols, 2 players save. Mid players push doors/catwalk."
       },
       {
-        "strategy": "**Mid Lurk**: 1 player lurks mid with upgraded pistol, 4 players force buy long A. Mid player waits for rotations, goes for picks through doors."
+        "strategy": "**B Stack Save**: 1 player A (save), 4 players B/tunnels close angles. Upgraded pistols B, overwhelm area."
       },
       {
-        "strategy": "**Deagle Mid**: 2 players buy Deagle + armor mid, 3 players support. Deagles take long angles through doors/catwalk. Support players trade."
+        "strategy": "**Catwalk Push**: 2 players A, 3 players mid (catwalk push). Mid players armor+pistol, aggressive contact."
       },
       {
-        "strategy": "**Tunnels Control**: 4 players buy armor + upgraded pistols tunnels, 1 player saves. Tunnels players use pop-flashes, fight for close duels."
+        "strategy": "**Anti-Force A**: 3 players A close, 2 players mid/B save. A players upgraded pistols, crossfires."
       },
       {
-        "strategy": "**Anti-Force Long**: 3 players buy armor + Five-Seven long A, 2 players save. Force players smoke car, play for picks, then save."
+        "strategy": "**Full Save**: All save completely. 2 A, 1 mid, 2 B. Passive angles, survival focus."
       },
       {
-        "strategy": "**Short Contact**: 2 players buy armor + upgraded pistols mid/short, 3 players save. Short players go for aggressive contact."
+        "strategy": "**Tunnels Push**: 2 players A, 2 players mid, 1 player tunnels (push). Tunnels player upgraded pistol."
       },
       {
-        "strategy": "**Catwalk Control**: 3 players buy armor + upgraded pistols mid, 2 players save. Mid players smoke doors, fight for catwalk."
+        "strategy": "**Long Control**: 2 players A (pit push), 2 players mid, 1 player B save. Pit player upgraded pistol."
       },
       {
-        "strategy": "**Split Save**: 2 players force long A, 2 players force tunnels, 1 player saves mid. Both sides play for picks, saver rotates."
+        "strategy": "**Retake Focus**: 2 players A, 1 player mid, 2 players B. All save, retake utility coordination."
       },
       {
-        "strategy": "**Full Save**: All players save completely. 2 long A, 2 tunnels, 1 mid. Play for exit frags and positioning for next round."
+        "strategy": "**Mixed Buy**: 2 players A (1 upgraded), 2 players mid (1 upgraded), 1 player B save."
       }
-    ]
-  },
-  {
+    ],
     "HALF_BUY": [
       {
-        "strategy": "**Long Control**: 3 players buy rifles, 2 players SMGs. 2 rifles long A, 1 rifle mid, SMGs support. Long rifles smoke car, take control."
+        "strategy": "**Rifle Mid**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player B (SMG). Rifles long angles."
       },
       {
-        "strategy": "**Mid Presence**: 2 rifles mid, 2 SMGs long A, 1 rifle tunnels. Mid rifles smoke doors, take catwalk control. Create multi-angle pressure."
+        "strategy": "**A Heavy**: 3 players A (2 rifles, 1 SMG), 1 player mid (rifle), 1 player B (SMG). Strong A hold."
       },
       {
-        "strategy": "**Tunnels Take**: 2 rifles tunnels, 2 SMGs mid, 1 rifle long A. Tunnels rifles clear upper, take B control. Mid SMGs support."
+        "strategy": "**Catwalk Control**: 2 players A (SMGs), 3 players mid (2 rifles, 1 SMG). Mid rifles control catwalk."
       },
       {
-        "strategy": "**Catwalk Control**: 3 players mid (2 rifles, 1 SMG), 2 SMGs long A. Mid players smoke doors, take catwalk. Decide short execute timing."
+        "strategy": "**Anti-Execute**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player B (SMG). Rifles long, SMGs retake."
       },
       {
-        "strategy": "**Pick Heavy**: Spread rifles for picks. 1 rifle long A, 1 rifle mid, 1 rifle tunnels, 2 SMGs floating. Play for economy upgrade."
+        "strategy": "**Tunnels Rifle**: 2 players A (SMGs), 2 players mid (1 rifle), 1 player B (rifle tunnels). Tunnels rifle control."
       },
       {
-        "strategy": "**Long Focus**: 4 players long A (2 rifles, 2 SMGs), 1 rifle mid. Long players smoke car, take A control. Mid rifle watches rotations."
+        "strategy": "**Balanced**: 2 players A (1 rifle, 1 SMG), 2 players mid (1 rifle, 1 SMG), 1 player B (rifle)."
       },
       {
-        "strategy": "**Short Split**: 2 rifles mid, 2 SMGs long A, 1 rifle tunnels. Execute A split through short and long. Mid rifles smoke doors."
+        "strategy": "**B Heavy**: 2 players A (SMGs), 1 player mid (rifle), 2 players B (1 rifle, 1 SMG). Strong B defense."
       },
       {
-        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Rifles hold long A and catwalk, SMGs play close. Isolate duels with utility."
+        "strategy": "**Long Rifle**: 2 players A (1 rifle long), 2 players mid (1 rifle), 1 player B (SMG). Long rifle picks."
       },
       {
-        "strategy": "**Upper Control**: 2 rifles tunnels, 2 SMGs mid, 1 rifle long A. Tunnels rifles take upper control, mid SMGs support rotations."
+        "strategy": "**Aggressive Mid**: 2 players A (SMGs), 3 players mid (2 rifles push). Mid rifles take map control."
       },
       {
-        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles take key angles, SMGs use smokes/flashes for coordinated team plays."
+        "strategy": "**Retake Setup**: 2 players A (1 rifle), 1 player mid (rifle), 2 players B (1 rifle, 1 SMG)."
+      }
+    ],
+    "FULL_BUY": [
+      {
+        "strategy": "**Standard 2-1-2**: 2 players A (rifles), 1 player mid (AWP), 2 players B (rifles). AWP catwalk/long."
+      },
+      {
+        "strategy": "**A Heavy**: 3 players A (rifles + utility), 1 player mid (rifle), 1 player B (rifle). Strong A defense."
+      },
+      {
+        "strategy": "**Mid Control**: 2 players A (rifles), 3 players mid (AWP + 2 rifles). Heavy mid presence, fast rotations."
+      },
+      {
+        "strategy": "**Catwalk Deny**: 2 players A (rifles), 2 players mid (rifles + utility), 1 player B (rifle). Smoke doors."
+      },
+      {
+        "strategy": "**Anti-Split**: 2 players A (rifles), 2 players mid (rifles), 1 player B (rifle + utility). Split defense."
+      },
+      {
+        "strategy": "**AWP Long**: 2 players A (1 AWP long, 1 rifle), 2 players mid (rifles), 1 player B (rifle). Long AWP picks."
+      },
+      {
+        "strategy": "**Tunnels Control**: 2 players A (rifles), 1 player mid (rifle), 2 players B (rifles + utility). Heavy tunnels utility."
+      },
+      {
+        "strategy": "**B Stack**: 1 player A (rifle), 2 players mid (rifles), 2 players B (rifles). Force long plays."
+      },
+      {
+        "strategy": "**Retake Heavy**: 2 players A (rifles), 1 player mid (rifle), 2 players B (rifles + utility). Retake focus."
+      },
+      {
+        "strategy": "**Aggressive Setup**: 2 players A (rifles), 2 players mid (rifles push), 1 player B (rifle). Mid map control."
       }
     ]
   },
-  {
+  "T": {
+    "PISTOL": [
+      {
+        "strategy": "**Long A Rush**: All 5 players buy armor, rush long A with coordinated pop-flashes. Clear pit/car quickly."
+      },
+      {
+        "strategy": "**B Tunnels Rush**: 4 players rush B tunnels with armor and flashes, 1 player long A for late rotate."
+      },
+      {
+        "strategy": "**Mid Control**: 3 players mid (1 with smoke for doors), 2 players long A. Mid players smoke doors, take catwalk."
+      },
+      {
+        "strategy": "**A Split**: 2 players long A, 3 players mid to catwalk. Long players smoke car, coordinate timing."
+      },
+      {
+        "strategy": "**Short Rush**: 4 players mid to short with pop-flashes, 1 player tunnels. Short players smoke doors."
+      },
+      {
+        "strategy": "**B Default**: 2 players tunnels, 2 players mid, 1 player long A. Play for picks and information."
+      },
+      {
+        "strategy": "**Catwalk Control**: 3 players mid with utility, 2 players long A. Mid players smoke doors, take catwalk."
+      },
+      {
+        "strategy": "**Long Fake to B**: 3 players make noise long A with utility, 2 players position mid. Execute B after rotations."
+      },
+      {
+        "strategy": "**Upper Tunnels**: 3 players upper tunnels with utility, 2 players long A. Tunnels players use pop-flashes."
+      },
+      {
+        "strategy": "**Anti-Stack**: 2 players long A, 2 players tunnels, 1 player mid. Create pressure from multiple angles."
+      }
+    ],
+    "ECO": [
+      {
+        "strategy": "**Five-Seven Long Rush**: Everyone buys Five-Seven + armor. Rush long A together with pop-flashes."
+      },
+      {
+        "strategy": "**Stack B Tunnels**: All 5 players stack B tunnels. Buy upgraded pistols + armor. Play close angles."
+      },
+      {
+        "strategy": "**Mid Lurk**: 1 player lurks mid with upgraded pistol, 4 players force buy long A."
+      },
+      {
+        "strategy": "**Deagle Mid**: 2 players buy Deagle + armor mid, 3 players support. Deagles take long angles through doors."
+      },
+      {
+        "strategy": "**Tunnels Control**: 4 players buy armor + upgraded pistols tunnels, 1 player saves."
+      },
+      {
+        "strategy": "**Anti-Force Long**: 3 players buy armor + Five-Seven long A, 2 players save. Force players smoke car."
+      },
+      {
+        "strategy": "**Short Contact**: 2 players buy armor + upgraded pistols mid/short, 3 players save."
+      },
+      {
+        "strategy": "**Catwalk Control**: 3 players buy armor + upgraded pistols mid, 2 players save. Fight for catwalk."
+      },
+      {
+        "strategy": "**Split Save**: 2 players force long A, 2 players force tunnels, 1 player saves mid."
+      },
+      {
+        "strategy": "**Full Save**: All players save completely. 2 long A, 2 tunnels, 1 mid. Exit frags only."
+      }
+    ],
+    "HALF_BUY": [
+      {
+        "strategy": "**Long Control**: 3 players buy rifles, 2 players SMGs. 2 rifles long A, 1 rifle mid, SMGs support."
+      },
+      {
+        "strategy": "**Mid Presence**: 2 rifles mid, 2 SMGs long A, 1 rifle tunnels. Mid rifles smoke doors, take catwalk."
+      },
+      {
+        "strategy": "**Tunnels Take**: 2 rifles tunnels, 2 SMGs mid, 1 rifle long A. Tunnels rifles clear upper, take B."
+      },
+      {
+        "strategy": "**Catwalk Control**: 3 players mid (2 rifles, 1 SMG), 2 SMGs long A. Mid players smoke doors."
+      },
+      {
+        "strategy": "**Pick Heavy**: Spread rifles for picks. 1 rifle long A, 1 rifle mid, 1 rifle tunnels, 2 SMGs floating."
+      },
+      {
+        "strategy": "**Long Focus**: 4 players long A (2 rifles, 2 SMGs), 1 rifle mid. Long players smoke car."
+      },
+      {
+        "strategy": "**Short Split**: 2 rifles mid, 2 SMGs long A, 1 rifle tunnels. Execute A split through short and long."
+      },
+      {
+        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Use utility to isolate duels."
+      },
+      {
+        "strategy": "**Upper Control**: 2 rifles tunnels, 2 SMGs mid, 1 rifle long A. Tunnels rifles take upper control."
+      },
+      {
+        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles key angles, SMGs support."
+      }
+    ],
     "FULL_BUY": [
       {
-        "strategy": "**A Execute**: Smoke car + default, flash over smokes. 3 players long A, 2 players short. Execute A site with perfect utility timing."
+        "strategy": "**A Execute**: Smoke car + default, flash over smokes. 3 players long A, 2 players short."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid with full utility, 2 players long A. Mid players smoke doors + catwalk, take control. AWPer mid for picks."
+        "strategy": "**Mid Control**: 3 players mid with full utility, 2 players long A. Mid players smoke doors + catwalk."
       },
       {
-        "strategy": "**B Split**: 2 players tunnels, 3 players mid to B. Smoke doors + B site, flash over smokes. Execute B split with coordination."
+        "strategy": "**B Split**: 2 players tunnels, 3 players mid to B. Smoke doors + B site, flash over smokes."
       },
       {
-        "strategy": "**Catwalk Take**: 4 players mid, 1 player long A. Mid players smoke doors + xbox, take catwalk control. Execute A through short."
+        "strategy": "**Catwalk Take**: 4 players mid, 1 player long A. Mid players smoke doors + xbox, take catwalk."
       },
       {
-        "strategy": "**Default Setup**: 2 long A, 2 mid, 1 tunnels. AWPer mid or long, riflers support. Play for picks with utility. Execute based on info."
+        "strategy": "**Default Setup**: 2 long A, 2 mid, 1 tunnels. AWPer mid or long, riflers support."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise long A with utility, 2 players position mid. Once rotations happen, all 5 execute B."
+        "strategy": "**A Fake to B**: 3 players make noise long A with utility, 2 players position mid. Execute B."
       },
       {
-        "strategy": "**Long Control**: 4 players long A with full utility, 1 player mid lurk. Long players smoke car + pit, take A control completely."
+        "strategy": "**Long Control**: 4 players long A with full utility, 1 player mid lurk. Long players smoke car + pit."
       },
       {
-        "strategy": "**Upper Execute**: 4 players tunnels with full utility, 1 player mid. Tunnels players smoke upper + site, execute B. Mid watches rotations."
+        "strategy": "**Upper Execute**: 4 players tunnels with full utility, 1 player mid. Tunnels players smoke upper + site."
       },
       {
-        "strategy": "**Anti-Stack A**: Heavy utility on long A (multiple smokes + flashes), 4 players execute A site. 1 player mid watches for rotations."
+        "strategy": "**Anti-Stack A**: Heavy utility on long A, 4 players execute A site. 1 player mid watches rotations."
       },
       {
-        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through upper tunnels. Use utility for late round timing."
+        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through upper tunnels."
       }
     ]
   }
-]
+}

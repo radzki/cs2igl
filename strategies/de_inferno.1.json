@@ -1,138 +1,262 @@
-[
-  {
+{
+  "CT": {
     "PISTOL": [
       {
-        "strategy": "**Apartments Rush**: All 5 players buy armor, rush apartments with coordinated pop-flashes. Clear balcony quickly, focus on overwhelming B site with trades."
+        "strategy": "**2-1-2 Setup**: 2 players A (quad/site), 1 player mid, 2 players B (apps/site). Mid player calls rotations, A players hold crossfires."
       },
       {
-        "strategy": "**Banana Control**: 4 players banana with utility, 1 player apartments. Banana players use pop-flashes, fight for map control. Apps player makes noise then rotates."
+        "strategy": "**Aggressive Banana**: 3 players banana (car control), 1 player A, 1 player B apps. Banana players push for picks early."
       },
       {
-        "strategy": "**A Rush Long**: 3 players long A with armor, 2 players mid/short. Long players coordinate pop-flashes, rush site together. Mid players support or rotate."
+        "strategy": "**Stack A**: 3 players A site (quad, default, close), 2 players banana/B. Focus on A retakes, banana rotates fast."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid (1 with smoke), 2 players banana. Mid players smoke top mid, take control. Banana players create pressure but don't commit."
+        "strategy": "**Apps Control**: 2 players A, 1 player mid, 2 players apps (balcony control). Apps players hold aggressively."
       },
       {
-        "strategy": "**A Split**: 2 players long A, 3 players mid to short. Long players smoke quad, mid players coordinate timing through short. Execute together."
+        "strategy": "**Anti-Rush A**: 3 players A (close angles), 1 player mid, 1 player banana. A players crossfire long rushes."
       },
       {
-        "strategy": "**B Default**: 2 players apps, 2 players banana, 1 player mid. Play for picks and information. Banana players smoke car if CTs are aggressive."
+        "strategy": "**Rotational**: 1 player A, 2 players mid/banana, 2 players B. Mobile defense, fast rotates based on contact."
       },
       {
-        "strategy": "**Short Rush**: 4 players mid to short with pop-flashes, 1 player banana. Short players coordinate utility, rush A site from short angle."
+        "strategy": "**Banana Stack**: 2 players A, 3 players banana/B. Heavy banana control, force A plays with utility."
       },
       {
-        "strategy": "**Banana Fake to A**: 3 players make noise banana with utility, 2 players position mid. Once rotations happen, all execute A through short."
+        "strategy": "**Mid Control**: 2 players A, 3 players mid (short control), 1 player banana. Mid players deny short access."
       },
       {
-        "strategy": "**Apps Control**: 3 players apartments with utility, 2 players banana. Apps players smoke balcony, take apps control. Play for picks."
+        "strategy": "**B Heavy**: 1 player A, 1 player mid, 3 players B (apps/site). Force long A plays, fast rotates."
       },
       {
-        "strategy": "**Anti-Stack**: 2 players long A, 2 players apps, 1 player mid. Create pressure from multiple angles. Mid player calls rotations based on sound."
+        "strategy": "**Info Play**: 2 players A, 1 player mid, 2 players B. Conservative angles, information and retake focus."
       }
-    ]
-  },
-  {
+    ],
     "ECO": [
       {
-        "strategy": "**Five-Seven Apps Rush**: Everyone buys Five-Seven + armor. Rush apartments together with pop-flashes. Focus on close-range trades and weapon pickups."
+        "strategy": "**Stack A Close**: 4 players A site (close angles), 1 player B. Upgraded pistols, close-range trades."
       },
       {
-        "strategy": "**Stack Banana**: All 5 players stack banana area. Buy upgraded pistols + armor. Play close angles around car/logs, use pop-flashes for coordinated peeks."
+        "strategy": "**Aggressive Banana**: 3 players banana with upgraded pistols, 2 players save. Banana players push car area."
       },
       {
-        "strategy": "**Mid Lurk**: 1 player lurks mid with upgraded pistol, 4 players force buy banana. Mid player waits for rotations, goes for late round picks."
+        "strategy": "**B Stack Save**: 1 player A (save), 4 players B/apps close angles. Upgraded pistols B, overwhelm area."
       },
       {
-        "strategy": "**Deagle Long**: 2 players buy Deagle + armor long A, 3 players support with utility. Deagles take long angles pit/quad. Support players trade frag."
+        "strategy": "**Apps Push**: 2 players A, 3 players apps (balcony push). Apps players armor+pistol, aggressive contact."
       },
       {
-        "strategy": "**Apps Control**: 4 players buy armor + upgraded pistols apps, 1 player saves. Apps players smoke balcony, fight for close-range duels."
+        "strategy": "**Anti-Force A**: 3 players A close, 2 players banana/B save. A players upgraded pistols, crossfires."
       },
       {
-        "strategy": "**Anti-Force Banana**: 3 players buy armor + Five-Seven banana, 2 players save. Force players smoke car, play for picks, then save weapons."
+        "strategy": "**Full Save**: All save completely. 2 A, 1 mid, 2 B. Passive angles, survival focus."
       },
       {
-        "strategy": "**Short Contact**: 2 players buy armor + upgraded pistols mid/short, 3 players save. Short players go for aggressive contact with flashes."
+        "strategy": "**Mid Push**: 2 players A, 3 players mid (short push). Mid players upgraded pistols, deny access."
       },
       {
-        "strategy": "**Banana Control**: 3 players buy armor + upgraded pistols banana, 2 players save. Banana players use pop-flashes, fight for map control."
+        "strategy": "**Banana Control**: 2 players A, 2 players banana (car push), 1 player B save. Banana players upgraded pistols."
       },
       {
-        "strategy": "**Split Save**: 2 players force long A, 2 players force apps, 1 player saves mid. Both sides play for picks, saver rotates to help."
+        "strategy": "**Retake Focus**: 2 players A, 1 player mid, 2 players B. All save, retake utility coordination."
       },
       {
-        "strategy": "**Full Save**: All players save completely. 2 long A, 2 apps, 1 mid. Play for exit frags and positioning for next round."
+        "strategy": "**Mixed Buy**: 2 players A (1 upgraded), 2 players banana (1 upgraded), 1 player B save."
       }
-    ]
-  },
-  {
+    ],
     "HALF_BUY": [
       {
-        "strategy": "**A Control**: 3 players buy rifles, 2 players SMGs. 2 rifles long A, 1 rifle mid, SMGs support. Long rifles smoke quad, take site control."
+        "strategy": "**Rifle Banana**: 2 players A (1 rifle), 2 players banana (1 rifle), 1 player B (SMG). Rifles long angles."
       },
       {
-        "strategy": "**Banana Presence**: 2 rifles banana, 2 SMGs apps, 1 rifle mid. Banana rifles smoke car, take banana control. Create multi-angle pressure."
+        "strategy": "**A Heavy**: 3 players A (2 rifles, 1 SMG), 1 player mid (rifle), 1 player B (SMG). Strong A hold."
       },
       {
-        "strategy": "**Apps Take**: 2 rifles apps, 2 SMGs banana, 1 rifle mid. Apps rifles smoke balcony, clear apartments. Banana SMGs support or rotate."
+        "strategy": "**Banana Control**: 2 players A (SMGs), 3 players banana (2 rifles, 1 SMG). Banana rifles control map."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid (2 rifles, 1 SMG), 2 SMGs banana. Mid players smoke top mid, take control. Decide short execute timing."
+        "strategy": "**Anti-Execute**: 2 players A (1 rifle), 2 players banana (1 rifle), 1 player B (SMG). Rifles long, SMGs retake."
       },
       {
-        "strategy": "**Pick Heavy**: Spread rifles for picks. 1 rifle long A, 1 rifle mid, 1 rifle banana, 2 SMGs floating. Play for economy upgrade."
+        "strategy": "**Apps Rifle**: 2 players A (SMGs), 2 players apps (1 rifle), 1 player banana (rifle). Apps rifle balcony."
       },
       {
-        "strategy": "**Long Focus**: 4 players long A (2 rifles, 2 SMGs), 1 rifle mid. Long players smoke quad, take A control. Mid rifle watches rotations."
+        "strategy": "**Balanced**: 2 players A (1 rifle, 1 SMG), 2 players banana (1 rifle, 1 SMG), 1 player B (rifle)."
       },
       {
-        "strategy": "**Short Split**: 2 rifles mid, 2 SMGs long A, 1 rifle apps. Execute A split through short and long. Mid rifles smoke top mid."
+        "strategy": "**B Heavy**: 2 players A (SMGs), 1 player banana (rifle), 2 players B (1 rifle, 1 SMG). Strong B defense."
       },
       {
-        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Rifles hold long A and banana, SMGs play close. Use utility to isolate duels."
+        "strategy": "**Mid Rifle**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player banana (SMG). Mid rifle short control."
       },
       {
-        "strategy": "**Balcony Control**: 2 rifles apps, 2 SMGs banana, 1 rifle mid. Apps rifles smoke balcony, take control. Banana SMGs support."
+        "strategy": "**Aggressive Banana**: 2 players A (SMGs), 3 players banana (2 rifles push). Banana rifles map control."
       },
       {
-        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles take key angles, SMGs use smokes/flashes to support coordinated plays."
+        "strategy": "**Retake Setup**: 2 players A (1 rifle), 1 player mid (rifle), 2 players B (1 rifle, 1 SMG)."
+      }
+    ],
+    "FULL_BUY": [
+      {
+        "strategy": "**Standard 2-1-2**: 2 players A (rifles), 1 player mid, 2 players B (rifles). AWP banana or A long."
+      },
+      {
+        "strategy": "**A Heavy**: 3 players A (rifles + utility), 1 player mid (rifle), 1 player B (rifle). Strong A defense."
+      },
+      {
+        "strategy": "**Banana Control**: 2 players A (rifles), 3 players banana (AWP + 2 rifles). Heavy banana presence."
+      },
+      {
+        "strategy": "**Apps Deny**: 2 players A (rifles), 2 players apps (rifles + utility), 1 player banana (rifle). Smoke balcony."
+      },
+      {
+        "strategy": "**Anti-Split**: 2 players A (rifles), 2 players banana (rifles), 1 player B (rifle + utility). Split defense."
+      },
+      {
+        "strategy": "**AWP Quad**: 2 players A (1 AWP quad, 1 rifle), 2 players banana (rifles), 1 player B (rifle)."
+      },
+      {
+        "strategy": "**Mid Control**: 2 players A (rifles), 3 players mid (rifles + utility). Heavy short control with utility."
+      },
+      {
+        "strategy": "**B Stack**: 1 player A (rifle), 2 players banana (rifles), 2 players B (rifles). Force A plays."
+      },
+      {
+        "strategy": "**Retake Heavy**: 2 players A (rifles), 1 player mid (rifle), 2 players B (rifles + utility). Retake focus."
+      },
+      {
+        "strategy": "**Aggressive Setup**: 2 players A (rifles), 2 players banana (rifles push), 1 player B (rifle). Banana map control."
       }
     ]
   },
-  {
+  "T": {
+    "PISTOL": [
+      {
+        "strategy": "**Apartments Rush**: All 5 players buy armor, rush apartments with coordinated pop-flashes. Clear balcony quickly."
+      },
+      {
+        "strategy": "**Banana Control**: 4 players banana with utility, 1 player apartments. Banana players use pop-flashes, fight for control."
+      },
+      {
+        "strategy": "**A Rush Long**: 3 players long A with armor, 2 players mid/short. Long players coordinate pop-flashes."
+      },
+      {
+        "strategy": "**Mid Control**: 3 players mid (1 with smoke), 2 players banana. Mid players smoke top mid, take control."
+      },
+      {
+        "strategy": "**A Split**: 2 players long A, 3 players mid to short. Long players smoke quad, coordinate timing."
+      },
+      {
+        "strategy": "**B Default**: 2 players apps, 2 players banana, 1 player mid. Play for picks and information."
+      },
+      {
+        "strategy": "**Short Rush**: 4 players mid to short with pop-flashes, 1 player banana. Short players coordinate utility."
+      },
+      {
+        "strategy": "**Banana Fake to A**: 3 players make noise banana with utility, 2 players position mid. Execute A after rotations."
+      },
+      {
+        "strategy": "**Apps Control**: 3 players apartments with utility, 2 players banana. Apps players smoke balcony."
+      },
+      {
+        "strategy": "**Anti-Stack**: 2 players long A, 2 players apps, 1 player mid. Create pressure from multiple angles."
+      }
+    ],
+    "ECO": [
+      {
+        "strategy": "**Five-Seven Apps Rush**: Everyone buys Five-Seven + armor. Rush apartments together with pop-flashes."
+      },
+      {
+        "strategy": "**Stack Banana**: All 5 players stack banana area. Buy upgraded pistols + armor. Play close angles."
+      },
+      {
+        "strategy": "**Mid Lurk**: 1 player lurks mid with upgraded pistol, 4 players force buy banana."
+      },
+      {
+        "strategy": "**Deagle Long**: 2 players buy Deagle + armor long A, 3 players support with utility."
+      },
+      {
+        "strategy": "**Apps Control**: 4 players buy armor + upgraded pistols apps, 1 player saves. Apps players smoke balcony."
+      },
+      {
+        "strategy": "**Anti-Force Banana**: 3 players buy armor + Five-Seven banana, 2 players save. Force players smoke car."
+      },
+      {
+        "strategy": "**Short Contact**: 2 players buy armor + upgraded pistols mid/short, 3 players save."
+      },
+      {
+        "strategy": "**Banana Control**: 3 players buy armor + upgraded pistols banana, 2 players save."
+      },
+      {
+        "strategy": "**Split Save**: 2 players force long A, 2 players force apps, 1 player saves mid."
+      },
+      {
+        "strategy": "**Full Save**: All players save completely. 2 long A, 2 apps, 1 mid. Exit frags only."
+      }
+    ],
+    "HALF_BUY": [
+      {
+        "strategy": "**A Control**: 3 players buy rifles, 2 players SMGs. 2 rifles long A, 1 rifle mid, SMGs support."
+      },
+      {
+        "strategy": "**Banana Presence**: 2 rifles banana, 2 SMGs apps, 1 rifle mid. Banana rifles smoke car."
+      },
+      {
+        "strategy": "**Apps Take**: 2 rifles apps, 2 SMGs banana, 1 rifle mid. Apps rifles smoke balcony."
+      },
+      {
+        "strategy": "**Mid Control**: 3 players mid (2 rifles, 1 SMG), 2 SMGs banana. Mid players smoke top mid."
+      },
+      {
+        "strategy": "**Pick Heavy**: Spread rifles for picks. 1 rifle long A, 1 rifle mid, 1 rifle banana, 2 SMGs floating."
+      },
+      {
+        "strategy": "**Long Focus**: 4 players long A (2 rifles, 2 SMGs), 1 rifle mid. Long players smoke quad."
+      },
+      {
+        "strategy": "**Short Split**: 2 rifles mid, 2 SMGs long A, 1 rifle apps. Execute A split through short and long."
+      },
+      {
+        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Use utility to isolate duels."
+      },
+      {
+        "strategy": "**Balcony Control**: 2 rifles apps, 2 SMGs banana, 1 rifle mid. Apps rifles smoke balcony."
+      },
+      {
+        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles key angles, SMGs support."
+      }
+    ],
     "FULL_BUY": [
       {
-        "strategy": "**A Execute**: Smoke quad + default, flash over smokes. 3 players long A, 2 players short. Execute A site with perfect utility timing and coordination."
+        "strategy": "**A Execute**: Smoke quad + default, flash over smokes. 3 players long A, 2 players short."
       },
       {
-        "strategy": "**Banana Take**: 3 players banana with full utility, 2 players apps. Banana players smoke car + CT, molly sandbags. Take banana control with utility."
+        "strategy": "**Banana Take**: 3 players banana with full utility, 2 players apps. Banana players smoke car + CT."
       },
       {
-        "strategy": "**B Split**: 2 players apps, 3 players banana to B. Smoke balcony + site, flash over smokes. Execute B split with coordinated timing."
+        "strategy": "**B Split**: 2 players apps, 3 players banana to B. Smoke balcony + site, flash over smokes."
       },
       {
-        "strategy": "**Mid Control**: 4 players mid, 1 player banana. Mid players smoke top mid + short, take control with flashes. Execute A through short."
+        "strategy": "**Mid Control**: 4 players mid, 1 player banana. Mid players smoke top mid + short, take control."
       },
       {
-        "strategy": "**Default Setup**: 2 long A, 2 banana, 1 mid. AWPer banana or long, riflers support. Play for picks with utility. Execute based on information."
+        "strategy": "**Default Setup**: 2 long A, 2 banana, 1 mid. AWPer banana or long, riflers support."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise long A with utility, 2 players position apps. Once rotations happen, all 5 execute B through apps."
+        "strategy": "**A Fake to B**: 3 players make noise long A with utility, 2 players position apps. Execute B."
       },
       {
-        "strategy": "**Apps Execute**: 4 players apps with full utility, 1 player banana lurk. Apps players smoke balcony + newbox, execute B. Banana lurker watches rotations."
+        "strategy": "**Apps Execute**: 4 players apps with full utility, 1 player banana lurk. Apps players smoke balcony."
       },
       {
-        "strategy": "**Quad Control**: 3 players long A, 2 players mid. Long players smoke quad + default, take site control. Mid players support with utility."
+        "strategy": "**Quad Control**: 3 players long A, 2 players mid. Long players smoke quad + default, take control."
       },
       {
-        "strategy": "**Anti-Stack B**: Heavy utility on apps (smokes + molotovs), 4 players execute B site. 1 player banana watches for rotations from A."
+        "strategy": "**Anti-Stack B**: Heavy utility on apps, 4 players execute B site. 1 player banana watches rotations."
       },
       {
-        "strategy": "**Late Round A**: Play default until 30 seconds, then all 5 execute A through short. Use smokes + flashes for late round timing advantage."
+        "strategy": "**Late Round A**: Play default until 30 seconds, then all 5 execute A through short."
       }
     ]
   }
-]
+}

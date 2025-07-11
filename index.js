@@ -10,12 +10,13 @@ class StrategySelector {
     initializeEventListeners() {
         const generateBtn = document.getElementById('generate-btn');
         const mapSelector = document.getElementById('map-selector');
+        const sideSelector = document.getElementById('side-selector');
         const statusSelector = document.getElementById('status-selector');
 
         generateBtn.addEventListener('click', () => this.generateStrategy());
         
         // Enable/disable generate button based on selections
-        [mapSelector, statusSelector].forEach(selector => {
+        [mapSelector, sideSelector, statusSelector].forEach(selector => {
             selector.addEventListener('change', () => this.validateSelections());
         });
 
@@ -25,10 +26,11 @@ class StrategySelector {
 
     validateSelections() {
         const mapValue = document.getElementById('map-selector').value;
+        const sideValue = document.getElementById('side-selector').value;
         const statusValue = document.getElementById('status-selector').value;
         const generateBtn = document.getElementById('generate-btn');
 
-        if (mapValue && statusValue) {
+        if (mapValue && sideValue && statusValue) {
             generateBtn.disabled = false;
             generateBtn.style.opacity = '1';
             generateBtn.style.cursor = 'pointer';
@@ -76,21 +78,25 @@ class StrategySelector {
         }
     }
 
-    getRandomStrategy(strategiesData, status) {
-        // Find the status object in the array
-        const statusObj = strategiesData.find(item => item[status]);
-        
-        if (!statusObj || !statusObj[status] || statusObj[status].length === 0) {
-            throw new Error(`No strategies found for status: ${status}`);
+    getRandomStrategy(strategiesData, side, status) {
+        // Check if the side exists in the data
+        if (!strategiesData[side]) {
+            throw new Error(`No strategies found for side: ${side}`);
         }
 
-        const strategies = statusObj[status];
+        // Check if the status exists for this side
+        if (!strategiesData[side][status] || strategiesData[side][status].length === 0) {
+            throw new Error(`No strategies found for ${side} ${status}`);
+        }
+
+        const strategies = strategiesData[side][status];
         const randomIndex = Math.floor(Math.random() * strategies.length);
         return strategies[randomIndex];
     }
 
     async generateStrategy() {
         const mapSelector = document.getElementById('map-selector');
+        const sideSelector = document.getElementById('side-selector');
         const statusSelector = document.getElementById('status-selector');
         const strategyDisplay = document.getElementById('strategy-display');
         const strategyContent = document.getElementById('strategy-content');
@@ -98,10 +104,11 @@ class StrategySelector {
         const strategyStatus = document.getElementById('strategy-status');
 
         const selectedMap = mapSelector.value;
+        const selectedSide = sideSelector.value;
         const selectedStatus = statusSelector.value;
 
-        if (!selectedMap || !selectedStatus) {
-            this.showError('Please select both a map and round status');
+        if (!selectedMap || !selectedSide || !selectedStatus) {
+            this.showError('Please select map, side, and round status');
             return;
         }
 
@@ -113,10 +120,10 @@ class StrategySelector {
             const strategiesData = await this.loadStrategies(selectedMap);
 
             // Get random strategy
-            const randomStrategy = this.getRandomStrategy(strategiesData, selectedStatus);
+            const randomStrategy = this.getRandomStrategy(strategiesData, selectedSide, selectedStatus);
 
             // Display the strategy
-            this.displayStrategy(selectedMap, selectedStatus, randomStrategy.strategy);
+            this.displayStrategy(selectedMap, selectedSide, selectedStatus, randomStrategy.strategy);
 
         } catch (error) {
             console.error('Error generating strategy:', error);
@@ -124,7 +131,7 @@ class StrategySelector {
         }
     }
 
-    displayStrategy(mapName, status, strategy) {
+    displayStrategy(mapName, side, status, strategy) {
         const strategyDisplay = document.getElementById('strategy-display');
         const strategyContent = document.getElementById('strategy-content');
         const strategyMap = document.getElementById('strategy-map');
@@ -139,11 +146,11 @@ class StrategySelector {
 
         // Update content
         strategyMap.textContent = displayMapName;
-        strategyStatus.textContent = displayStatus;
+        strategyStatus.textContent = `${side} - ${displayStatus}`;
         
         // Build the content with strategy and key points
         let content = `<div class="strategy-section">
-            <h3>Strategy:</h3>
+            <h3>${side} Strategy:</h3>
             <div class="strategy-text">${this.formatStrategy(strategy)}</div>
         </div>`;
 

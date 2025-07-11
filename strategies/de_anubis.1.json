@@ -1,138 +1,262 @@
-[
-  {
+{
+  "CT": {
     "PISTOL": [
       {
-        "strategy": "**A Main Rush**: All 5 players buy armor, rush A main with coordinated pop-flashes. Clear heaven/default angles quickly, focus on site control with trades."
+        "strategy": "**2-1-2 Setup**: 2 players A (heaven/site), 1 player mid (connector), 2 players B (main/site). Mid player calls rotations."
       },
       {
-        "strategy": "**B Rush**: 4 players rush B main with armor and flashes, 1 player A main for late rotate. B players coordinate pop-flashes, clear site systematically."
+        "strategy": "**Aggressive Mid**: 3 players mid (connector/palace), 1 player A, 1 player B. Mid players push for picks."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid (1 with smoke), 2 players A main. Mid players smoke connector, take upper mid control. A players create pressure."
+        "strategy": "**Stack A**: 3 players A site (heaven, default, close), 2 players mid/B. Focus on A retakes."
       },
       {
-        "strategy": "**A Split**: 2 players A main, 3 players mid to connector. A players smoke heaven, mid players coordinate timing through connector. Execute together."
+        "strategy": "**Connector Hold**: 2 players A, 2 players connector/mid, 1 player B. Connector players hold aggressively."
       },
       {
-        "strategy": "**Canal Control**: 3 players canal with utility, 2 players A main. Canal players smoke connector, take canal control with flashes. Play for picks."
+        "strategy": "**Anti-Rush A**: 3 players A (close angles), 1 player mid, 1 player B. A players crossfire main rushes."
       },
       {
-        "strategy": "**B Default**: 2 players B main, 2 players mid, 1 player A main. Play for picks and information. Mid players smoke connector if CTs push."
+        "strategy": "**Rotational**: 1 player A, 2 players mid, 2 players B. Mobile defense, fast rotates based on contact."
       },
       {
-        "strategy": "**Connector Rush**: 4 players mid to connector with pop-flashes, 1 player B main. Connector players coordinate utility, rush A site through connector."
+        "strategy": "**Palace Control**: 2 players A, 3 players mid/palace. Palace players push for picks, deny T control."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise A main with utility, 2 players position mid. Once rotations happen, all execute B through mid."
+        "strategy": "**B Heavy**: 1 player A, 1 player mid, 3 players B. Force A plays, fast rotates with utility."
       },
       {
-        "strategy": "**Palace Control**: 3 players mid focusing on palace area, 2 players A main. Palace players smoke connector, take control with coordination."
+        "strategy": "**Heaven Focus**: 2 players A (heaven control), 2 players mid, 1 player B. Heaven player AWP/rifle."
       },
       {
-        "strategy": "**Anti-Stack**: 2 players A main, 2 players B main, 1 player mid. Create pressure from multiple angles. Mid player calls rotations."
+        "strategy": "**Info Play**: 2 players A, 1 player mid, 2 players B. Conservative angles, information focus."
       }
-    ]
-  },
-  {
+    ],
     "ECO": [
       {
-        "strategy": "**Five-Seven A Rush**: Everyone buys Five-Seven + armor. Rush A main together with pop-flashes. Focus on overwhelming heaven player and trading kills."
+        "strategy": "**Stack A Close**: 4 players A site (close angles), 1 player B. Upgraded pistols, close-range trades."
       },
       {
-        "strategy": "**Stack B Main**: All 5 players stack B main area. Buy upgraded pistols + armor. Play close angles around site, use pop-flashes for coordination."
+        "strategy": "**Aggressive Mid**: 3 players mid with upgraded pistols, 2 players save. Mid players push connector."
       },
       {
-        "strategy": "**Mid Lurk**: 1 player lurks mid with upgraded pistol, 4 players force buy A main. Mid player waits for rotations, goes for connector picks."
+        "strategy": "**B Stack Save**: 1 player A (save), 4 players B close angles. Upgraded pistols B, overwhelm area."
       },
       {
-        "strategy": "**Deagle Mid**: 2 players buy Deagle + armor mid, 3 players support. Deagles take long angles upper mid/connector. Support players trade."
+        "strategy": "**Connector Push**: 2 players A, 3 players mid (connector push). Mid players armor+pistol, aggressive contact."
       },
       {
-        "strategy": "**Canal Control**: 4 players buy armor + upgraded pistols canal, 1 player saves. Canal players use pop-flashes, fight for close-range duels."
+        "strategy": "**Anti-Force A**: 3 players A close, 2 players mid/B save. A players upgraded pistols, crossfires."
       },
       {
-        "strategy": "**Anti-Force A**: 3 players buy armor + Five-Seven A main, 2 players save. Force players smoke heaven, play for picks, then save."
+        "strategy": "**Full Save**: All save completely. 2 A, 1 mid, 2 B. Passive angles, survival focus."
       },
       {
-        "strategy": "**Connector Contact**: 2 players buy armor + upgraded pistols mid/connector, 3 players save. Connector players go for aggressive contact."
+        "strategy": "**Palace Push**: 2 players A, 3 players mid (palace push). Mid players upgraded pistols, deny access."
       },
       {
-        "strategy": "**B Contact**: 3 players buy armor + upgraded pistols B main, 2 players save. B players fight for site control with utility."
+        "strategy": "**Canal Control**: 2 players A, 2 players mid (canal), 1 player B save. Canal players upgraded pistols."
       },
       {
-        "strategy": "**Split Save**: 2 players force A main, 2 players force B main, 1 player saves mid. Both sides play for picks, saver rotates."
+        "strategy": "**Retake Focus**: 2 players A, 1 player mid, 2 players B. All save, retake utility coordination."
       },
       {
-        "strategy": "**Full Save**: All players save completely. 2 A main, 2 B main, 1 mid. Play for exit frags and positioning for next round."
+        "strategy": "**Mixed Buy**: 2 players A (1 upgraded), 2 players mid (1 upgraded), 1 player B save."
       }
-    ]
-  },
-  {
+    ],
     "HALF_BUY": [
       {
-        "strategy": "**A Control**: 3 players buy rifles, 2 players SMGs. 2 rifles A main, 1 rifle mid, SMGs support. A rifles smoke heaven, take control."
+        "strategy": "**Rifle Mid**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player B (SMG). Rifles long angles."
       },
       {
-        "strategy": "**Mid Presence**: 2 rifles mid, 2 SMGs A main, 1 rifle B main. Mid rifles smoke connector, take upper control. Create multi-angle pressure."
+        "strategy": "**A Heavy**: 3 players A (2 rifles, 1 SMG), 1 player mid (rifle), 1 player B (SMG). Strong A hold."
       },
       {
-        "strategy": "**B Take**: 2 rifles B main, 2 SMGs mid, 1 rifle A main. B rifles clear site, take control. Mid SMGs support or rotate based on reads."
+        "strategy": "**Connector Control**: 2 players A (SMGs), 3 players mid (2 rifles, 1 SMG). Mid rifles hold connector."
       },
       {
-        "strategy": "**Canal Control**: 3 players mid (2 rifles, 1 SMG), 2 SMGs A main. Mid players smoke connector, take canal control. Decide execute timing."
+        "strategy": "**Anti-Execute**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player B (SMG). Rifles long, SMGs retake."
       },
       {
-        "strategy": "**Pick Heavy**: Spread rifles for picks. 1 rifle A main, 1 rifle mid, 1 rifle B main, 2 SMGs floating. Play for economy upgrade."
+        "strategy": "**Palace Rifle**: 2 players A (SMGs), 3 players mid (2 rifles palace), 1 player B (save). Palace rifles control."
       },
       {
-        "strategy": "**A Focus**: 4 players A main (2 rifles, 2 SMGs), 1 rifle mid. A players smoke heaven, take site control. Mid rifle watches rotations."
+        "strategy": "**Balanced**: 2 players A (1 rifle, 1 SMG), 2 players mid (1 rifle, 1 SMG), 1 player B (rifle)."
       },
       {
-        "strategy": "**Connector Split**: 2 rifles mid, 2 SMGs A main, 1 rifle B main. Execute A split through connector and main. Mid rifles lead."
+        "strategy": "**B Heavy**: 2 players A (SMGs), 1 player mid (rifle), 2 players B (1 rifle, 1 SMG). Strong B defense."
       },
       {
-        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Rifles hold mid and A main, SMGs play close. Use utility to isolate."
+        "strategy": "**Heaven Rifle**: 2 players A (1 rifle heaven), 2 players mid (1 rifle), 1 player B (SMG). Heaven rifle picks."
       },
       {
-        "strategy": "**Palace Control**: 2 rifles mid, 2 SMGs A main, 1 rifle B main. Mid rifles take palace control, coordinate with A main SMGs."
+        "strategy": "**Aggressive Mid**: 2 players A (SMGs), 3 players mid (2 rifles push). Mid rifles take map control."
       },
       {
-        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles take key angles, SMGs use smokes/flashes for coordinated team plays."
+        "strategy": "**Retake Setup**: 2 players A (1 rifle), 1 player mid (rifle), 2 players B (1 rifle, 1 SMG)."
+      }
+    ],
+    "FULL_BUY": [
+      {
+        "strategy": "**Standard 2-1-2**: 2 players A (rifles), 1 player mid (AWP), 2 players B (rifles). AWP connector/palace."
+      },
+      {
+        "strategy": "**A Heavy**: 3 players A (rifles + utility), 1 player mid (rifle), 1 player B (rifle). Strong A defense."
+      },
+      {
+        "strategy": "**Mid Control**: 2 players A (rifles), 3 players mid (AWP + 2 rifles). Heavy mid presence."
+      },
+      {
+        "strategy": "**Connector Deny**: 2 players A (rifles), 2 players mid (rifles + utility), 1 player B (rifle). Smoke connector."
+      },
+      {
+        "strategy": "**Anti-Split**: 2 players A (rifles), 2 players mid (rifles), 1 player B (rifle + utility). Split defense."
+      },
+      {
+        "strategy": "**AWP Heaven**: 2 players A (1 AWP heaven, 1 rifle), 2 players mid (rifles), 1 player B (rifle). Heaven AWP."
+      },
+      {
+        "strategy": "**Palace Control**: 2 players A (rifles), 3 players mid (rifles + AWP palace). Palace control with utility."
+      },
+      {
+        "strategy": "**B Stack**: 1 player A (rifle), 2 players mid (rifles), 2 players B (rifles). Force A plays."
+      },
+      {
+        "strategy": "**Retake Heavy**: 2 players A (rifles), 1 player mid (rifle), 2 players B (rifles + utility). Retake focus."
+      },
+      {
+        "strategy": "**Aggressive Setup**: 2 players A (rifles), 2 players mid (rifles push), 1 player B (rifle). Mid map control."
       }
     ]
   },
-  {
+  "T": {
+    "PISTOL": [
+      {
+        "strategy": "**A Main Rush**: All 5 players buy armor, rush A main with coordinated pop-flashes. Clear heaven/default quickly."
+      },
+      {
+        "strategy": "**B Rush**: 4 players rush B main with armor and flashes, 1 player A main for late rotate."
+      },
+      {
+        "strategy": "**Mid Control**: 3 players mid (1 with smoke), 2 players A main. Mid players smoke connector, take upper mid."
+      },
+      {
+        "strategy": "**A Split**: 2 players A main, 3 players mid to connector. A players smoke heaven, coordinate timing."
+      },
+      {
+        "strategy": "**Canal Control**: 3 players canal with utility, 2 players A main. Canal players smoke connector, take control."
+      },
+      {
+        "strategy": "**B Default**: 2 players B main, 2 players mid, 1 player A main. Play for picks and information."
+      },
+      {
+        "strategy": "**Connector Rush**: 4 players mid to connector with pop-flashes, 1 player B main. Connector players coordinate."
+      },
+      {
+        "strategy": "**A Fake to B**: 3 players make noise A main with utility, 2 players position mid. Execute B after rotations."
+      },
+      {
+        "strategy": "**Palace Control**: 3 players mid focusing on palace area, 2 players A main. Palace players smoke connector."
+      },
+      {
+        "strategy": "**Anti-Stack**: 2 players A main, 2 players B main, 1 player mid. Create pressure from multiple angles."
+      }
+    ],
+    "ECO": [
+      {
+        "strategy": "**Five-Seven A Rush**: Everyone buys Five-Seven + armor. Rush A main together with pop-flashes."
+      },
+      {
+        "strategy": "**Stack B Main**: All 5 players stack B main area. Buy upgraded pistols + armor. Play close angles."
+      },
+      {
+        "strategy": "**Mid Lurk**: 1 player lurks mid with upgraded pistol, 4 players force buy A main."
+      },
+      {
+        "strategy": "**Deagle Mid**: 2 players buy Deagle + armor mid, 3 players support. Deagles take long angles upper mid."
+      },
+      {
+        "strategy": "**Canal Control**: 4 players buy armor + upgraded pistols canal, 1 player saves."
+      },
+      {
+        "strategy": "**Anti-Force A**: 3 players buy armor + Five-Seven A main, 2 players save. Force players smoke heaven."
+      },
+      {
+        "strategy": "**Connector Contact**: 2 players buy armor + upgraded pistols mid/connector, 3 players save."
+      },
+      {
+        "strategy": "**B Contact**: 3 players buy armor + upgraded pistols B main, 2 players save."
+      },
+      {
+        "strategy": "**Split Save**: 2 players force A main, 2 players force B main, 1 player saves mid."
+      },
+      {
+        "strategy": "**Full Save**: All players save completely. 2 A main, 2 B main, 1 mid. Exit frags only."
+      }
+    ],
+    "HALF_BUY": [
+      {
+        "strategy": "**A Control**: 3 players buy rifles, 2 players SMGs. 2 rifles A main, 1 rifle mid, SMGs support."
+      },
+      {
+        "strategy": "**Mid Presence**: 2 rifles mid, 2 SMGs A main, 1 rifle B main. Mid rifles smoke connector, take upper."
+      },
+      {
+        "strategy": "**B Take**: 2 rifles B main, 2 SMGs mid, 1 rifle A main. B rifles clear site, take control."
+      },
+      {
+        "strategy": "**Canal Control**: 3 players mid (2 rifles, 1 SMG), 2 SMGs A main. Mid players smoke connector."
+      },
+      {
+        "strategy": "**Pick Heavy**: Spread rifles for picks. 1 rifle A main, 1 rifle mid, 1 rifle B main, 2 SMGs floating."
+      },
+      {
+        "strategy": "**A Focus**: 4 players A main (2 rifles, 2 SMGs), 1 rifle mid. A players smoke heaven."
+      },
+      {
+        "strategy": "**Connector Split**: 2 rifles mid, 2 SMGs A main, 1 rifle B main. Execute A split through connector."
+      },
+      {
+        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Use utility to isolate duels."
+      },
+      {
+        "strategy": "**Palace Control**: 2 rifles mid, 2 SMGs A main, 1 rifle B main. Mid rifles take palace control."
+      },
+      {
+        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles key angles, SMGs support."
+      }
+    ],
     "FULL_BUY": [
       {
-        "strategy": "**A Execute**: Smoke heaven + connector, flash over smokes. 3 players A main, 2 players connector. Execute A site with perfect utility timing."
+        "strategy": "**A Execute**: Smoke heaven + connector, flash over smokes. 3 players A main, 2 players connector."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid with full utility, 2 players A main. Mid players smoke connector + palace, take upper control. AWPer mid for picks."
+        "strategy": "**Mid Control**: 3 players mid with full utility, 2 players A main. Mid players smoke connector + palace."
       },
       {
-        "strategy": "**B Split**: 2 players B main, 3 players mid to B. Smoke connector + B site, flash over smokes. Execute B split with coordination."
+        "strategy": "**B Split**: 2 players B main, 3 players mid to B. Smoke connector + B site, flash over smokes."
       },
       {
-        "strategy": "**Canal Take**: 4 players mid, 1 player A main. Mid players smoke connector + canal, take canal control. Execute A through connector."
+        "strategy": "**Canal Take**: 4 players mid, 1 player A main. Mid players smoke connector + canal, take control."
       },
       {
-        "strategy": "**Default Setup**: 2 A main, 2 mid, 1 B main. AWPer mid or A main, riflers support. Play for picks with utility. Execute based on info."
+        "strategy": "**Default Setup**: 2 A main, 2 mid, 1 B main. AWPer mid or A main, riflers support."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise A main with utility, 2 players position mid. Once rotations happen, all 5 execute B through mid."
+        "strategy": "**A Fake to B**: 3 players make noise A main with utility, 2 players position mid. Execute B."
       },
       {
-        "strategy": "**Heaven Control**: 4 players A main with full utility, 1 player mid lurk. A players smoke heaven + default, take complete A control."
+        "strategy": "**Heaven Control**: 4 players A main with full utility, 1 player mid lurk. A players smoke heaven + default."
       },
       {
-        "strategy": "**Palace Execute**: 4 players mid with full utility, 1 player B main. Mid players smoke palace + connector, execute A. B watches rotations."
+        "strategy": "**Palace Execute**: 4 players mid with full utility, 1 player B main. Mid players smoke palace + connector."
       },
       {
-        "strategy": "**Anti-Stack A**: Heavy utility on A main (multiple smokes + flashes), 4 players execute A site. 1 player mid watches for rotations."
+        "strategy": "**Anti-Stack A**: Heavy utility on A main, 4 players execute A site. 1 player mid watches rotations."
       },
       {
-        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through connector/mid. Use utility for late timing advantage."
+        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through connector/mid."
       }
     ]
   }
-]
+}

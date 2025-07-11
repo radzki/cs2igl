@@ -1,138 +1,262 @@
-[
-  {
+{
+  "CT": {
     "PISTOL": [
       {
-        "strategy": "**A Ramp Rush**: All 5 players buy armor, rush A ramp with coordinated pop-flashes. First two players clear default/triple, last three secure site and plant."
+        "strategy": "**2-1-2 Setup**: 2 players A (default/triple), 1 player mid (connector), 2 players B (apps/site). Mid player calls rotations, A players trade frag."
       },
       {
-        "strategy": "**B Apps Rush**: 4 players rush B apartments with armor and flashes. 1 player goes mid for late rotate. Apps players coordinate pop-flashes, focus on site control."
+        "strategy": "**Aggressive Mid**: 3 players mid (connector/window), 1 player A, 1 player B. Mid players push for picks, A/B hold retake positions."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid (1 with smoke), 2 players A ramp. Mid players smoke connector, take mid control. A players create pressure but don't commit."
+        "strategy": "**Stack A**: 3 players A site (default, triple, quad), 2 players mid/B. Focus on A retakes, mid players rotate fast on B contact."
       },
       {
-        "strategy": "**A Split**: 2 players A ramp, 3 players mid to connector. Ramp players smoke stairs, mid players smoke connector. Execute split with timing."
+        "strategy": "**Connector Hold**: 2 players A, 2 players connector/mid, 1 player B. Connector players hold aggressively, deny T mid control."
       },
       {
-        "strategy": "**Palace Control**: 3 players palace with utility, 2 players A ramp. Palace players smoke connector/jungle, take palace control. Ramp players support."
+        "strategy": "**Anti-Rush A**: 3 players A (close angles), 1 player mid, 1 player B. A players play crossfires against ramp rushes."
       },
       {
-        "strategy": "**B Default**: 2 players B apps, 2 players mid, 1 player A ramp. Play for picks and information. Mid players smoke connector if CTs push."
+        "strategy": "**Rotational**: 1 player A, 2 players mid, 2 players B. Play for information, fast rotates. Mobile defense setup."
       },
       {
-        "strategy": "**Mid to B**: All 5 players go mid, smoke connector and jungle. Flash over smokes, execute B site through connector. Fast timing crucial."
+        "strategy": "**Palace Control**: 2 players A, 3 players mid/palace. Palace players push for picks, deny T palace control."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise A ramp with utility, 2 players position palace. Once rotations happen, all execute B through connector."
+        "strategy": "**B Stack**: 1 player A, 1 player mid, 3 players B. Force Ts to A, play for fast rotates with utility."
       },
       {
-        "strategy": "**Underpass Play**: 2 players A ramp, 2 players mid, 1 player underpass. Underpass player waits for mid contact, then flanks connector."
+        "strategy": "**Window Focus**: 2 players A, 2 players mid (window control), 1 player B. Window player AWP/rifle for picks."
       },
       {
-        "strategy": "**Anti-Stack**: 2 players A ramp, 2 players B apps, 1 player mid. All areas create pressure simultaneously. Mid player calls rotations."
+        "strategy": "**Info Play**: 2 players A, 1 player mid, 2 players B. Conservative angles, information gathering focus."
       }
-    ]
-  },
-  {
+    ],
     "ECO": [
       {
-        "strategy": "**Five-Seven A Rush**: Everyone buys Five-Seven + armor. Rush A ramp together with pop-flashes. Focus on overwhelming default player and trading kills."
+        "strategy": "**Stack A Close**: 4 players A site (close angles), 1 player B. Upgraded pistols, close-range trades. B player saves."
       },
       {
-        "strategy": "**Stack B Apps**: All 5 players stack B apartments. Buy upgraded pistols + armor. Play close angles, use pop-flashes, coordinate peeks."
+        "strategy": "**Aggressive Mid**: 3 players mid with upgraded pistols, 2 players save. Mid players push connector, savers hold retakes."
       },
       {
-        "strategy": "**Palace Lurk**: 1 player lurks palace with upgraded pistol, 4 players force buy A ramp. Palace player waits for rotations, goes for late picks."
+        "strategy": "**B Stack Save**: 1 player A (save), 4 players B close angles. Upgraded pistols B, overwhelm apps area."
       },
       {
-        "strategy": "**Deagle Mid**: 2 players buy Deagle + armor mid, 3 players support with utility. Deagles take long angles top mid. Support players trade frag."
+        "strategy": "**Connector Push**: 2 players A, 3 players mid (connector push). Mid players armor+pistol, aggressive early contact."
       },
       {
-        "strategy": "**Connector Rush**: 4 players buy armor + upgraded pistols, rush connector from mid. 1 player saves in spawn. Use pop-flashes for close duels."
+        "strategy": "**Anti-Force A**: 3 players A close, 2 players mid/B save. A players upgraded pistols, crossfire setups."
       },
       {
-        "strategy": "**Anti-Force A**: 3 players buy armor + Five-Seven A ramp, 2 players save. Force players smoke stairs, play for picks, then save weapons."
+        "strategy": "**Full Save**: All save completely. 2 A, 1 mid, 2 B. Passive angles, survival and information focus."
       },
       {
-        "strategy": "**B Contact**: 2 players buy armor + upgraded pistols B apps, 3 players save mid. B players go for aggressive contact with flashes."
+        "strategy": "**Palace Push**: 2 players A, 3 players mid (palace push). Mid players upgraded pistols, deny palace access."
       },
       {
-        "strategy": "**Mid Control**: 3 players buy armor + upgraded pistols mid, 2 players save. Mid players smoke connector, fight for picks with utility."
+        "strategy": "**Window Control**: 2 players A, 2 players mid (window focus), 1 player B save. Window player upgraded pistol."
       },
       {
-        "strategy": "**Split Save**: 2 players force A ramp, 2 players force B apps, 1 player saves mid. Both sides play for picks, saver rotates to help."
+        "strategy": "**Retake Focus**: 2 players A, 1 player mid, 2 players B. All save, retake utility coordination."
       },
       {
-        "strategy": "**Full Save**: All players save completely. 2 A ramp, 2 B apps, 1 mid. Play for exit frags and positioning for next round."
+        "strategy": "**Mixed Buy**: 2 players A (1 upgraded), 2 players mid (1 upgraded), 1 player B save. Selective upgrades."
       }
-    ]
-  },
-  {
+    ],
     "HALF_BUY": [
       {
-        "strategy": "**A Control**: 3 players buy rifles, 2 players SMGs. 2 rifles A ramp, 1 rifle mid, SMGs support. Ramp rifles smoke stairs, take site control."
+        "strategy": "**Rifle Mid**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player B (SMG). Rifles hold long angles."
       },
       {
-        "strategy": "**Mid Presence**: 2 rifles mid, 2 SMGs A ramp, 1 rifle B apps. Mid rifles smoke connector, take mid control. Create pressure from multiple angles."
+        "strategy": "**A Heavy**: 3 players A (2 rifles, 1 SMG), 1 player mid (rifle), 1 player B (SMG). Strong A hold."
       },
       {
-        "strategy": "**B Apps Take**: 2 rifles B apps, 2 SMGs mid, 1 rifle A ramp. Apps rifles clear apartments, take B control. Mid SMGs support or rotate."
+        "strategy": "**Connector Control**: 2 players A (SMGs), 3 players mid (2 rifles, 1 SMG). Mid rifles hold connector."
       },
       {
-        "strategy": "**Palace Control**: 3 players mid (2 rifles, 1 SMG), 2 SMGs A ramp. Mid players smoke connector, take palace control. Decide connector or A execute."
+        "strategy": "**Anti-Execute**: 2 players A (1 rifle), 2 players mid (1 rifle), 1 player B (SMG). Rifles long, SMGs retake."
       },
       {
-        "strategy": "**Pick Heavy**: Spread rifles for picks. 1 rifle A ramp, 1 rifle mid, 1 rifle B apps, 2 SMGs floating. Play for economy upgrade."
+        "strategy": "**Palace Rifle**: 2 players A (SMGs), 3 players mid (2 rifles palace), 1 player B (save). Palace rifles control."
       },
       {
-        "strategy": "**Ramp Focus**: 4 players A ramp (2 rifles, 2 SMGs), 1 rifle mid. Ramp players smoke stairs, take A control. Mid rifle watches rotations."
+        "strategy": "**Balanced**: 2 players A (1 rifle, 1 SMG), 2 players mid (1 rifle, 1 SMG), 1 player B (rifle)."
       },
       {
-        "strategy": "**Connector Split**: 2 rifles mid, 2 SMGs A ramp, 1 rifle B apps. Execute A split through connector and ramp. Mid rifles smoke connector."
+        "strategy": "**B Heavy**: 2 players A (SMGs), 1 player mid (rifle), 2 players B (1 rifle, 1 SMG). Strong B defense."
       },
       {
-        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Rifles hold mid and A ramp, SMGs play close. Use utility to isolate duels."
+        "strategy": "**Window Rifle**: 2 players A (1 rifle), 2 players mid (1 rifle window), 1 player B (SMG). Window rifle for picks."
       },
       {
-        "strategy": "**Underpass Control**: 2 rifles A ramp, 2 SMGs mid (1 underpass), 1 rifle B apps. Underpass SMG waits for contact, then flanks."
+        "strategy": "**Aggressive Mid**: 2 players A (SMGs), 3 players mid (2 rifles push). Mid rifles take map control."
       },
       {
-        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles take key angles, SMGs use smokes/flashes to support team plays."
+        "strategy": "**Retake Setup**: 2 players A (1 rifle), 1 player mid (rifle), 2 players B (1 rifle, 1 SMG). Retake focus."
+      }
+    ],
+    "FULL_BUY": [
+      {
+        "strategy": "**Standard 2-1-2**: 2 players A (rifles), 1 player mid (AWP), 2 players B (rifles). AWP connector/window."
+      },
+      {
+        "strategy": "**A Heavy**: 3 players A (rifles + utility), 1 player mid (rifle), 1 player B (rifle). Strong A defense."
+      },
+      {
+        "strategy": "**Mid Control**: 2 players A (rifles), 3 players mid (AWP + 2 rifles). Heavy mid presence, fast rotations."
+      },
+      {
+        "strategy": "**Connector Deny**: 2 players A (rifles), 2 players mid (rifles + utility), 1 player B (rifle). Smoke connector."
+      },
+      {
+        "strategy": "**Anti-Split**: 2 players A (rifles), 2 players mid (rifles), 1 player B (rifle + utility). Split defense focus."
+      },
+      {
+        "strategy": "**AWP Window**: 2 players A (rifles), 2 players mid (1 AWP window, 1 rifle), 1 player B (rifle). Window AWP picks."
+      },
+      {
+        "strategy": "**Palace Control**: 2 players A (rifles), 3 players mid (rifles + AWP palace). Palace control with utility."
+      },
+      {
+        "strategy": "**B Stack**: 1 player A (rifle), 2 players mid (rifles), 2 players B (rifles). Force A plays, fast rotates."
+      },
+      {
+        "strategy": "**Retake Heavy**: 2 players A (rifles), 1 player mid (rifle), 2 players B (rifles + utility). Retake coordination."
+      },
+      {
+        "strategy": "**Aggressive Setup**: 2 players A (rifles), 2 players mid (rifles push), 1 player B (rifle). Mid map control."
       }
     ]
   },
-  {
+  "T": {
+    "PISTOL": [
+      {
+        "strategy": "**A Ramp Rush**: All 5 players buy armor, rush A ramp with coordinated pop-flashes. First two players clear default/triple."
+      },
+      {
+        "strategy": "**B Apps Rush**: 4 players rush B apartments with armor and flashes. 1 player goes mid for late rotate."
+      },
+      {
+        "strategy": "**Mid Control**: 3 players mid (1 with smoke), 2 players A ramp. Mid players smoke connector, take mid control."
+      },
+      {
+        "strategy": "**A Split**: 2 players A ramp, 3 players mid to connector. Ramp players smoke stairs, execute split timing."
+      },
+      {
+        "strategy": "**Palace Control**: 3 players palace with utility, 2 players A ramp. Palace players smoke connector/jungle."
+      },
+      {
+        "strategy": "**B Default**: 2 players B apps, 2 players mid, 1 player A ramp. Play for picks and information."
+      },
+      {
+        "strategy": "**Mid to B**: All 5 players go mid, smoke connector and jungle. Flash over smokes, execute B site."
+      },
+      {
+        "strategy": "**A Fake to B**: 3 players make noise A ramp with utility, 2 players position palace. Execute B after rotations."
+      },
+      {
+        "strategy": "**Underpass Play**: 2 players A ramp, 2 players mid, 1 player underpass. Underpass flanks on contact."
+      },
+      {
+        "strategy": "**Anti-Stack**: 2 players A ramp, 2 players B apps, 1 player mid. Create pressure simultaneously."
+      }
+    ],
+    "ECO": [
+      {
+        "strategy": "**Five-Seven A Rush**: Everyone buys Five-Seven + armor. Rush A ramp together with pop-flashes."
+      },
+      {
+        "strategy": "**Stack B Apps**: All 5 players stack B apartments. Buy upgraded pistols + armor. Play close angles."
+      },
+      {
+        "strategy": "**Palace Lurk**: 1 player lurks palace with upgraded pistol, 4 players force buy A ramp."
+      },
+      {
+        "strategy": "**Deagle Mid**: 2 players buy Deagle + armor mid, 3 players support with utility. Deagles take long angles."
+      },
+      {
+        "strategy": "**Connector Rush**: 4 players buy armor + upgraded pistols, rush connector from mid. 1 player saves."
+      },
+      {
+        "strategy": "**Anti-Force A**: 3 players buy armor + Five-Seven A ramp, 2 players save. Force players smoke stairs."
+      },
+      {
+        "strategy": "**B Contact**: 2 players buy armor + upgraded pistols B apps, 3 players save mid."
+      },
+      {
+        "strategy": "**Mid Control**: 3 players buy armor + upgraded pistols mid, 2 players save. Fight for picks."
+      },
+      {
+        "strategy": "**Split Save**: 2 players force A ramp, 2 players force B apps, 1 player saves mid."
+      },
+      {
+        "strategy": "**Full Save**: All players save completely. 2 A ramp, 2 B apps, 1 mid. Exit frags only."
+      }
+    ],
+    "HALF_BUY": [
+      {
+        "strategy": "**A Control**: 3 players buy rifles, 2 players SMGs. 2 rifles A ramp, 1 rifle mid, SMGs support."
+      },
+      {
+        "strategy": "**Mid Presence**: 2 rifles mid, 2 SMGs A ramp, 1 rifle B apps. Mid rifles smoke connector."
+      },
+      {
+        "strategy": "**B Apps Take**: 2 rifles B apps, 2 SMGs mid, 1 rifle A ramp. Apps rifles clear apartments."
+      },
+      {
+        "strategy": "**Palace Control**: 3 players mid (2 rifles, 1 SMG), 2 SMGs A ramp. Mid players smoke connector."
+      },
+      {
+        "strategy": "**Pick Heavy**: Spread rifles for picks. 1 rifle A ramp, 1 rifle mid, 1 rifle B apps, 2 SMGs floating."
+      },
+      {
+        "strategy": "**Ramp Focus**: 4 players A ramp (2 rifles, 2 SMGs), 1 rifle mid. Ramp players smoke stairs."
+      },
+      {
+        "strategy": "**Connector Split**: 2 rifles mid, 2 SMGs A ramp, 1 rifle B apps. Execute A split through connector."
+      },
+      {
+        "strategy": "**Anti-Full Buy**: 2 rifles long angles, 3 SMGs close angles. Use utility to isolate duels."
+      },
+      {
+        "strategy": "**Underpass Control**: 2 rifles A ramp, 2 SMGs mid (1 underpass), 1 rifle B apps."
+      },
+      {
+        "strategy": "**Utility Heavy**: 2 rifles, 3 SMGs with heavy utility. Rifles key angles, SMGs support."
+      }
+    ],
     "FULL_BUY": [
       {
-        "strategy": "**A Execute**: Smoke stairs + connector, flash over smokes. 3 players A ramp, 2 players connector. Execute A site with perfect timing and utility."
+        "strategy": "**A Execute**: Smoke stairs + connector, flash over smokes. 3 players A ramp, 2 players connector."
       },
       {
-        "strategy": "**Mid Control**: 3 players mid with full utility, 2 players A ramp. Mid players smoke connector + window, take mid control. Execute based on reads."
+        "strategy": "**Mid Control**: 3 players mid with full utility, 2 players A ramp. Mid players smoke connector + window."
       },
       {
-        "strategy": "**B Split**: 2 players B apps, 3 players mid to connector. Smoke connector + jungle, flash over smokes. Execute B split with coordination."
+        "strategy": "**B Split**: 2 players B apps, 3 players mid to connector. Smoke connector + jungle, flash over."
       },
       {
-        "strategy": "**Palace Take**: 4 players mid, 1 player A ramp. Mid players smoke connector + window, take palace control with flashes. Execute A through connector."
+        "strategy": "**Palace Take**: 4 players mid, 1 player A ramp. Mid players smoke connector + window, take palace."
       },
       {
-        "strategy": "**Default Setup**: 2 A ramp, 2 mid, 1 B apps. AWPer mid, riflers A ramp. Play for picks with utility. Execute based on information gathered."
+        "strategy": "**Default Setup**: 2 A ramp, 2 mid, 1 B apps. AWPer mid, riflers A ramp. Play for picks."
       },
       {
-        "strategy": "**A Fake to B**: 3 players make noise A ramp with utility, 2 players position mid. Once rotations happen, all 5 execute B through connector."
+        "strategy": "**A Fake to B**: 3 players make noise A ramp with utility, 2 players position mid. Execute B."
       },
       {
-        "strategy": "**Window Control**: 3 players mid, 2 players A ramp. Mid players smoke window, take mid control. AWPer window, riflers support with utility."
+        "strategy": "**Window Control**: 3 players mid, 2 players A ramp. Mid players smoke window, take control."
       },
       {
-        "strategy": "**B Apps Execute**: 4 players B apps with full utility, 1 player mid lurk. Apps players smoke balcony + site, execute B. Mid lurker watches rotations."
+        "strategy": "**B Apps Execute**: 4 players B apps with full utility, 1 player mid lurk. Apps players smoke balcony."
       },
       {
-        "strategy": "**Anti-Stack A**: Heavy utility on A ramp (multiple smokes + flashes), 4 players execute A site. 1 player mid watches for rotations."
+        "strategy": "**Anti-Stack A**: Heavy utility on A ramp, 4 players execute A site. 1 player mid watches rotations."
       },
       {
-        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through connector. Use smokes + flashes for late round timing."
+        "strategy": "**Late Round B**: Play default until 30 seconds, then all 5 execute B through connector."
       }
     ]
   }
-]
+}
