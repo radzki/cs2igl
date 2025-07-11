@@ -41,7 +41,7 @@ class StrategySelector {
 
     async loadMapDescriptions() {
         try {
-            const response = await fetch('strategies/maps_descriptions.json');
+            const response = await fetch(`strategies/maps_descriptions.json?v=${Date.now()}`);
             
             if (!response.ok) {
                 throw new Error('Failed to load map descriptions');
@@ -61,7 +61,7 @@ class StrategySelector {
         }
 
         try {
-            const response = await fetch(`strategies/${mapName}.1.json`);
+            const response = await fetch(`strategies/${mapName}.1.json?v=${Date.now()}`);
             
             if (!response.ok) {
                 throw new Error(`Failed to load strategies for ${mapName}`);
