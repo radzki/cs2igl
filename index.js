@@ -432,7 +432,7 @@ If the strategy is not good, say so, and suggest a better one.
 Limit your analysis to at most 20 words per point.
 Dont return text such as "Certainly! ..." Or "Sure, here it is". Just return the analysis.
 Make sure that the strategy is not TOO illogical or unrealistic, nor IMPOSSIBLE, such as impossible smoke angles or things like that.
-Use Markdown formatting for the analysis.`;
+Use HTML formatting for the analysis.`;
     }
 
     async callAnthropicAPI(apiKey, prompt) {
@@ -560,9 +560,9 @@ Use Markdown formatting for the analysis.`;
         const aiAnalysis = document.getElementById('ai-analysis');
         const analysisContent = document.getElementById('analysis-content');
 
-        // Render the analysis as markdown
-        const renderedAnalysis = this.renderMarkdown(analysis);
-        analysisContent.innerHTML = renderedAnalysis;
+        // Process the HTML response from the AI
+        const processedAnalysis = this.processHtmlResponse(analysis);
+        analysisContent.innerHTML = processedAnalysis;
 
         // Show the analysis with animation
         aiAnalysis.classList.remove('show');
@@ -575,40 +575,18 @@ Use Markdown formatting for the analysis.`;
         }, 100);
     }
 
-    renderMarkdown(text) {
-        // Simple markdown renderer that handles common markdown syntax
-        return text
-            // Headers
-            .replace(/^### (.*$)/gm, '<h3>$1</h3>')
-            .replace(/^## (.*$)/gm, '<h2>$1</h2>')
-            .replace(/^# (.*$)/gm, '<h1>$1</h1>')
-            
-            // Bold and italic
-            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-            .replace(/\*(.*?)\*/g, '<em>$1</em>')
-            
-            // Lists
-            .replace(/^- (.*$)/gm, '<li>$1</li>')
-            .replace(/^(\d+)\. (.*$)/gm, '<li>$1. $2</li>')
-            
-            // Code blocks
-            .replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>')
-            .replace(/`([^`]+)`/g, '<code>$1</code>')
-            
-            // Links
-            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>')
-            
-            // Line breaks and paragraphs
-            .replace(/\n\n/g, '</p><p>')
+    processHtmlResponse(htmlText) {
+        // Since the AI is now returning HTML, we just need to clean it up and handle line breaks
+        return htmlText
+            // Convert plain line breaks to HTML line breaks where needed
             .replace(/\n/g, '<br>')
-            .replace(/^/, '<p>')
-            .replace(/$/, '</p>')
-            
-            // Clean up list formatting
-            .replace(/<p>(<li>.*?<\/li>)<\/p>/g, '<ul>$1</ul>')
-            .replace(/<\/li><br><li>/g, '</li><li>')
-            .replace(/<ul><li>/g, '<ul><li>')
-            .replace(/<\/li><\/ul>/g, '</li></ul>');
+            // Clean up any double line breaks that might have been converted
+            .replace(/<br><br>/g, '<br>')
+            // Ensure proper spacing around block elements
+            .replace(/<\/h[1-6]><br>/g, '</h$1>')
+            .replace(/<\/p><br>/g, '</p>')
+            .replace(/<\/ul><br>/g, '</ul>')
+            .replace(/<\/ol><br>/g, '</ol>');
     }
 
     showAnalysisLoading() {
