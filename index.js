@@ -568,9 +568,9 @@ ALSO: Make sure that the strategy is not TOO illogical or unrealistic, nor IMPOS
         const aiAnalysis = document.getElementById('ai-analysis');
         const analysisContent = document.getElementById('analysis-content');
 
-        // Format the analysis text
-        const formattedAnalysis = this.formatAnalysis(analysis);
-        analysisContent.innerHTML = formattedAnalysis;
+        // Render the analysis as markdown
+        const renderedAnalysis = this.renderMarkdown(analysis);
+        analysisContent.innerHTML = renderedAnalysis;
 
         // Show the analysis with animation
         aiAnalysis.classList.remove('show');
@@ -583,15 +583,40 @@ ALSO: Make sure that the strategy is not TOO illogical or unrealistic, nor IMPOS
         }, 100);
     }
 
-    formatAnalysis(analysis) {
-        // Convert markdown-style formatting to HTML
-        return analysis
+    renderMarkdown(text) {
+        // Simple markdown renderer that handles common markdown syntax
+        return text
+            // Headers
+            .replace(/^### (.*$)/gm, '<h3>$1</h3>')
+            .replace(/^## (.*$)/gm, '<h2>$1</h2>')
+            .replace(/^# (.*$)/gm, '<h1>$1</h1>')
+            
+            // Bold and italic
             .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
             .replace(/\*(.*?)\*/g, '<em>$1</em>')
+            
+            // Lists
+            .replace(/^- (.*$)/gm, '<li>$1</li>')
+            .replace(/^(\d+)\. (.*$)/gm, '<li>$1. $2</li>')
+            
+            // Code blocks
+            .replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>')
+            .replace(/`([^`]+)`/g, '<code>$1</code>')
+            
+            // Links
+            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>')
+            
+            // Line breaks and paragraphs
             .replace(/\n\n/g, '</p><p>')
             .replace(/\n/g, '<br>')
             .replace(/^/, '<p>')
-            .replace(/$/, '</p>');
+            .replace(/$/, '</p>')
+            
+            // Clean up list formatting
+            .replace(/<p>(<li>.*?<\/li>)<\/p>/g, '<ul>$1</ul>')
+            .replace(/<\/li><br><li>/g, '</li><li>')
+            .replace(/<ul><li>/g, '<ul><li>')
+            .replace(/<\/li><\/ul>/g, '</li></ul>');
     }
 
     showAnalysisLoading() {
